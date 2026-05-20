@@ -40,8 +40,15 @@ def get_db():
 # ── Startup ────────────────────────────────────────────
 @app.on_event("startup")
 def on_startup():
-    init_db()
-    seed_db()
+    try:
+        init_db()
+        seed_db()
+        print("Database initialized and seeded successfully.")
+    except Exception as e:
+        import traceback
+        print("CRITICAL: Database initialization failed!")
+        print(traceback.format_exc())
+
 
 
 # ── Pages ──────────────────────────────────────────────

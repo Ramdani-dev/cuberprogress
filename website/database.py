@@ -19,10 +19,19 @@ SEED_PATH = os.path.join(BASE_DIR, "data", "seed_data.json")
 DATABASE_URL = os.environ.get("DATABASE_URL")
 
 if DATABASE_URL:
-    # SQLAlchemy requires postgresql:// instead of postgres://
+    # SQLAlchemy requires postgresql+pg8000:// (using pg8000 driver) or postgresql:// (using psycopg2)
+    # We use pg8000 because it is pure-python and works reliably on Vercel without requiring libpq.so
     if DATABASE_URL.startswith("postgres://"):
-        DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
-    engine = create_engine(DATABASE_URL, echo=False)
+        DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql+pg8000://", 1)
+    elif DATABASE_URL.startswith("postgresql://"):
+        DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+pg8000://", 1)
+    
+    # We also configure pool pre-ping to verify connections and prevent drops
+    engine = create_engine(
+        DATABASE_URL, 
+        pool_pre_ping=True,
+        pool_recycle=300
+    )
 else:
     # Use SQLite
     if os.environ.get("VERCEL"):
@@ -31,6 +40,7 @@ else:
         DB_PATH = os.path.join(BASE_DIR, "data", "cuber_progress.db")
         os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
     engine = create_engine(f"sqlite:///{DB_PATH}", echo=False)
+
 
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 Base = declarative_base()
