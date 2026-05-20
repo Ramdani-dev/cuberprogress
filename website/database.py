@@ -13,13 +13,25 @@ from sqlalchemy import (
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(BASE_DIR, "data", "cuber_progress.db")
 SEED_PATH = os.path.join(BASE_DIR, "data", "seed_data.json")
 
-# Ensure data directory exists
-os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
+# Database configuration
+DATABASE_URL = os.environ.get("DATABASE_URL")
 
-engine = create_engine(f"sqlite:///{DB_PATH}", echo=False)
+if DATABASE_URL:
+    # SQLAlchemy requires postgresql:// instead of postgres://
+    if DATABASE_URL.startswith("postgres://"):
+        DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
+    engine = create_engine(DATABASE_URL, echo=False)
+else:
+    # Use SQLite
+    if os.environ.get("VERCEL"):
+        DB_PATH = "/tmp/cuber_progress.db"
+    else:
+        DB_PATH = os.path.join(BASE_DIR, "data", "cuber_progress.db")
+        os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
+    engine = create_engine(f"sqlite:///{DB_PATH}", echo=False)
+
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 Base = declarative_base()
 
