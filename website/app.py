@@ -12,8 +12,9 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.requests import Request
 from fastapi.responses import HTMLResponse, PlainTextResponse
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, joinedload
 from sqlalchemy import func, extract, case, Integer
+
 
 # Add current directory to path for serverless environment imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -127,7 +128,8 @@ def get_cases(
         )
 
     total = query.count()
-    cases = query.order_by(Case.id).offset((page - 1) * per_page).limit(per_page).all()
+    cases = query.options(joinedload(Case.algorithms)).order_by(Case.id).offset((page - 1) * per_page).limit(per_page).all()
+
 
     return {
         "total": total,
@@ -182,21 +184,33 @@ def select_algorithm(case_id: int, algorithm_id: int, db: Session = Depends(get_
 # ── API: Statistics ────────────────────────────────────
 @app.get("/api/stats")
 def get_stats(db: Session = Depends(get_db)):
-    total = db.query(Case).count()
-    memorized = db.query(Case).filter(Case.status == True).count()
-
-    # Per-category stats
+    # Per-category stats queried in one go
+    cat_counts = db.query(
+        Case.category,
+        func.count(Case.id).label("total"),
+        func.sum(case((Case.status == True, 1), else_=0)).label("memorized")
+    ).group_by(Case.category).all()
+    
     categories = {}
+    total = 0
+    memorized = 0
+    
+    # Initialize all categories with 0 default
     for cat in ["F2L", "ZBLS", "ZBLL"]:
-        cat_total = db.query(Case).filter(Case.category == cat).count()
-        cat_memorized = db.query(Case).filter(
-            Case.category == cat, Case.status == True
-        ).count()
-        categories[cat] = {
-            "total": cat_total,
-            "memorized": cat_memorized,
-            "percentage": round((cat_memorized / cat_total * 100) if cat_total > 0 else 0, 1),
-        }
+        categories[cat] = {"total": 0, "memorized": 0, "percentage": 0.0}
+        
+    for row in cat_counts:
+        cat = row.category
+        if cat in categories:
+            t = row.total or 0
+            m = int(row.memorized or 0)
+            categories[cat] = {
+                "total": t,
+                "memorized": m,
+                "percentage": round((m / t * 100) if t > 0 else 0, 1)
+            }
+            total += t
+            memorized += m
 
     # Sub-group stats
     sub_groups = {}
@@ -232,35 +246,46 @@ def get_stats(db: Session = Depends(get_db)):
 @app.get("/api/stats/monthly")
 def get_monthly_stats(db: Session = Depends(get_db)):
     """Get monthly memorization data for the chart."""
+    dialect = db.bind.dialect.name
+    if dialect == 'postgresql':
+        month_func = func.to_char(Case.date_learned, 'YYYY-MM')
+    else:
+        month_func = func.strftime('%Y-%m', Case.date_learned)
+
     results = db.query(
-        func.strftime('%Y-%m', Case.date_learned).label("month"),
+        month_func.label("month"),
         func.count(Case.id).label("count"),
     ).filter(
         Case.status == True,
         Case.date_learned.isnot(None),
     ).group_by(
-        func.strftime('%Y-%m', Case.date_learned)
+        month_func
     ).order_by("month").all()
 
-    # Also get cumulative per category
-    cat_results = {}
-    for cat in ["F2L", "ZBLS", "ZBLL"]:
-        rows = db.query(
-            func.strftime('%Y-%m', Case.date_learned).label("month"),
-            func.count(Case.id).label("count"),
-        ).filter(
-            Case.category == cat,
-            Case.status == True,
-            Case.date_learned.isnot(None),
-        ).group_by(
-            func.strftime('%Y-%m', Case.date_learned)
-        ).order_by("month").all()
-        cat_results[cat] = [{"month": r[0], "count": r[1]} for r in rows]
+    # Get cumulative per category in one query
+    cat_rows = db.query(
+        Case.category,
+        month_func.label("month"),
+        func.count(Case.id).label("count"),
+    ).filter(
+        Case.status == True,
+        Case.date_learned.isnot(None),
+    ).group_by(
+        Case.category,
+        month_func
+    ).order_by("month").all()
+
+    cat_results = {"F2L": [], "ZBLS": [], "ZBLL": []}
+    for row in cat_rows:
+        cat = row.category
+        if cat in cat_results:
+            cat_results[cat].append({"month": row.month, "count": row.count})
 
     return {
         "total": [{"month": r[0], "count": r[1]} for r in results],
         "by_category": cat_results,
     }
+
 
 
 @app.get("/api/sub-groups")
