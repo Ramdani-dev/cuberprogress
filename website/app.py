@@ -245,46 +245,45 @@ def get_stats(db: Session = Depends(get_db)):
 
 @app.get("/api/stats/monthly")
 def get_monthly_stats(db: Session = Depends(get_db)):
-    """Get monthly memorization data for the chart."""
-    dialect = db.bind.dialect.name
-    if dialect == 'postgresql':
-        month_func = func.to_char(Case.date_learned, 'YYYY-MM')
-    else:
-        month_func = func.strftime('%Y-%m', Case.date_learned)
-
-    results = db.query(
-        month_func.label("month"),
-        func.count(Case.id).label("count"),
-    ).filter(
+    """Get monthly memorization data for the chart by grouping in Python (database-agnostic)."""
+    rows = db.query(Case.category, Case.date_learned).filter(
         Case.status == True,
-        Case.date_learned.isnot(None),
-    ).group_by(
-        month_func
-    ).order_by("month").all()
+        Case.date_learned.isnot(None)
+    ).order_by(Case.date_learned).all()
 
-    # Get cumulative per category in one query
-    cat_rows = db.query(
-        Case.category,
-        month_func.label("month"),
-        func.count(Case.id).label("count"),
-    ).filter(
-        Case.status == True,
-        Case.date_learned.isnot(None),
-    ).group_by(
-        Case.category,
-        month_func
-    ).order_by("month").all()
+    from collections import defaultdict
+    total_by_month = defaultdict(int)
+    cat_by_month = {
+        "F2L": defaultdict(int),
+        "ZBLS": defaultdict(int),
+        "ZBLL": defaultdict(int)
+    }
 
-    cat_results = {"F2L": [], "ZBLS": [], "ZBLL": []}
-    for row in cat_rows:
+    for row in rows:
         cat = row.category
-        if cat in cat_results:
-            cat_results[cat].append({"month": row.month, "count": row.count})
+        dt = row.date_learned
+        if dt:
+            # Format datetime to YYYY-MM
+            month_str = dt.strftime('%Y-%m')
+            total_by_month[month_str] += 1
+            if cat in cat_by_month:
+                cat_by_month[cat][month_str] += 1
+
+    all_months = sorted(list(total_by_month.keys()))
+    total_stats = [{"month": m, "count": total_by_month[m]} for m in all_months]
+
+    cat_results = {}
+    for cat in ["F2L", "ZBLS", "ZBLL"]:
+        cat_results[cat] = [
+            {"month": m, "count": cat_by_month[cat][m]}
+            for m in sorted(list(cat_by_month[cat].keys()))
+        ]
 
     return {
-        "total": [{"month": r[0], "count": r[1]} for r in results],
+        "total": total_stats,
         "by_category": cat_results,
     }
+
 
 
 
