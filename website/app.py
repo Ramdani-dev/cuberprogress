@@ -3,6 +3,7 @@ Cuber Progress — FastAPI Backend
 Rubik's Algorithm Memorization Tracker
 """
 import os
+import sys
 from datetime import datetime, timezone
 from typing import Optional
 
@@ -14,7 +15,10 @@ from fastapi.responses import HTMLResponse
 from sqlalchemy.orm import Session
 from sqlalchemy import func, extract, case, Integer
 
+# Add current directory to path for serverless environment imports
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from database import SessionLocal, init_db, seed_db, Case, Algorithm
+
 
 # ── App Setup ──────────────────────────────────────────
 app = FastAPI(title="Cuber Progress", version="1.0.0")
