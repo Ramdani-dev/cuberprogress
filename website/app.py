@@ -11,7 +11,7 @@ from fastapi import FastAPI, Depends, HTTPException, Query
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.requests import Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, PlainTextResponse
 from sqlalchemy.orm import Session
 from sqlalchemy import func, extract, case, Integer
 
@@ -22,6 +22,16 @@ from database import SessionLocal, init_db, seed_db, Case, Algorithm
 
 # ── App Setup ──────────────────────────────────────────
 app = FastAPI(title="Cuber Progress", version="1.0.0")
+
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    import traceback
+    return PlainTextResponse(
+        f"Error: {exc.__class__.__name__}: {str(exc)}\n{traceback.format_exc()}",
+        status_code=500
+    )
+
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 app.mount("/static", StaticFiles(directory=os.path.join(BASE_DIR, "static")), name="static")
