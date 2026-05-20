@@ -1,0 +1,2300 @@
+{
+  "front_right_slot": [
+    {
+      "kategori": "T-Shape",
+      "urutan": 1,
+      "algoritma": [
+        "(U') R U R' U R U2 R' U2 R' U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 2,
+      "algoritma": [
+        "(U') R U R' U R U2 R' U' R U2 R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 3,
+      "algoritma": [
+        "(U') R' U' R U' R' U2 R U R' U2 R U R' U R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 4,
+      "algoritma": [
+        "(U') l' U2 R' D2 R U2 R' D2 R2"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 5,
+      "algoritma": [
+        "R' U2 R' D' R U2 R' D R' U R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 6,
+      "algoritma": [
+        "R' D' R U R' D R U2 R U2 R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 7,
+      "algoritma": [
+        "(U') R' U' R U' R' U R U' R U R2 U R2 U2 R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 8,
+      "algoritma": [
+        "R U2 R' U' R U' R2 U2 R U R' U R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 9,
+      "algoritma": [
+        "(U') R U R2 U' R2 U' R2 U2 R U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 10,
+      "algoritma": [
+        "R' U R2 D R' U R D' R' U R' U' R U' R' U' R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 11,
+      "algoritma": [
+        "(U') R U R' U2 R U' R' U2 R U' R2 F' R U R U' R' F"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 12,
+      "algoritma": [
+        "(U) R' U' R U' F U' R' U R U F' R' U R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 13,
+      "algoritma": [
+        "(U2) R' U2 R U R' U R U' R' U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 14,
+      "algoritma": [
+        "R U2 R' U' R U' R' U R U R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 15,
+      "algoritma": [
+        "R' U R U2 R' U' R U' R U R' U' R' U' R U R U' R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 16,
+      "algoritma": [
+        "(U2) R U2 R D R' U2 R D' R U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 17,
+      "algoritma": [
+        "(U) R' U' R' D' R U R' D R U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 18,
+      "algoritma": [
+        "R' U2 R U' R' F R U R' U' R' F' R U' R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 19,
+      "algoritma": [
+        "(U') R U R' U R U' R' U R' U' R2 U' R2 U2 R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 20,
+      "algoritma": [
+        "(U') R' U' R2 U R2 U R2 U2 R' U R' U R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 21,
+      "algoritma": [
+        "L' U2 L U L' U L2 U2 L' U' L U' L'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 22,
+      "algoritma": [
+        "R' D' R U R' D R2 U R' U2 R U' R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 23,
+      "algoritma": [
+        "(U2) R U' R2 D' R U' R' D R U' R U R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 24,
+      "algoritma": [
+        "(U2) F R U R' U' R U' R' U' R U R' F'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 25,
+      "algoritma": [
+        "R' U R U2 L' R' U R U' L"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 26,
+      "algoritma": [
+        "(U2) R' F R U R' U' R' F' R2 U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 27,
+      "algoritma": [
+        "R U R' U' R' U L' U2 R U' R' U2 L R2 U' R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 28,
+      "algoritma": [
+        "(U') R U R D R' U' R D' R' U2 R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 29,
+      "algoritma": [
+        "(U') R' U' R' D' R U R' D R U2 R U R' U R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 30,
+      "algoritma": [
+        "(U2) R' U' R U' R' U R F U' R' U2 R U F'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 31,
+      "algoritma": [
+        "r' U r' x' F2 R U' R' F2 r2 U'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 32,
+      "algoritma": [
+        "F U' R' U2 R U F' R' U' R U R' U R"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 33,
+      "algoritma": [
+        "(U) L' U2 R U2 R' U2 L U R U R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 34,
+      "algoritma": [
+        "r' U2 R U R' l' U2 R U R' U2 l U r"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 35,
+      "algoritma": [
+        "r' U' l' U2 R U' R' U2 l R U' R' U2 r"
+      ]
+    },
+    {
+      "kategori": "T-Shape",
+      "urutan": 36,
+      "algoritma": [
+        "R U R' U R U' R' U' L' U2 R U2 R' U2 L"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 37,
+      "algoritma": [
+        "L2 F2 L' U2 L' U2 L F2 L' U L U' L'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 38,
+      "algoritma": [
+        "(U) R U R' U R U R' U2 L R U' R' U L'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 39,
+      "algoritma": [
+        "(U') R U R' U' R U' M' x' U' R U R' L'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 40,
+      "algoritma": [
+        "(U2) R' U' R' D' R U R' D R2"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 41,
+      "algoritma": [
+        "(U) F U R U2 R' U R U R' F'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 42,
+      "algoritma": [
+        "(U') R D R' U' R D' R2 U R U' R' U' R U R' U' R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 43,
+      "algoritma": [
+        "(U') R' D' R U R' D R2 U' R' U R U R' U' R U R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 44,
+      "algoritma": [
+        "(U') r U R' U' r' F R F' R U' R U R U R U' R' U' R2"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 45,
+      "algoritma": [
+        "(U') R U2 R' U2 R' F R U R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 46,
+      "algoritma": [
+        "R2 F2 R U2 R U2 R' F2 R U' R' U R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 47,
+      "algoritma": [
+        "R' U2 R F U' R' U R U F' R' U R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 48,
+      "algoritma": [
+        "(U) R U R' U' R U R2 D' R U2 R' D R U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 49,
+      "algoritma": [
+        "(U2) R U R D R' U2 R D' R' U' R' U R U' R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 50,
+      "algoritma": [
+        "(U') R U' R' U' R U R D R' U2 R D' R' U' R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 51,
+      "algoritma": [
+        "(U) R' U' R U R' U' R2 D R' U2 R D' R' U R' U R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 52,
+      "algoritma": [
+        "(U) R U R' U' R' F' R U2 R U2 R' F"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 53,
+      "algoritma": [
+        "(U) R' F' r U R U' r' F R2 U R U R' U' R' U' R' U R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 54,
+      "algoritma": [
+        "(U') R U2 R' U2 R U' R' U L' U R U' L U' R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 55,
+      "algoritma": [
+        "(U') R' U2 R U2 R' U R U' L U' R' U L' U R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 56,
+      "algoritma": [
+        "R U R D R' U' R D' R2"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 57,
+      "algoritma": [
+        "(U') F' U' L' U2 L U F R U' R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 58,
+      "algoritma": [
+        "(U') R' U R U R' U' R' D' R U2 R' D R U R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 59,
+      "algoritma": [
+        "(U) R' U' R U' R' U' R U2 L' R' U R U' L"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 60,
+      "algoritma": [
+        "(U') R' U' R U R' U R L' U R' U' R L"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 61,
+      "algoritma": [
+        "(U2) R U R' F' R U R' U' R' F R U' R' F R U R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 62,
+      "algoritma": [
+        "(U) R U R' U' R U R2 D' R U' R' D R U2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 63,
+      "algoritma": [
+        "(U2) R U' R2 D' r U2 r' D R2 U R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 64,
+      "algoritma": [
+        "R' U' R U2 R D R' U' R D' R2 U R U' R' U R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 65,
+      "algoritma": [
+        "(U) R2 F R U R U' R' F R U2 R' U2 R' F2 R2"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 66,
+      "algoritma": [
+        "(U') R2 F2 R U2 R U2 R' F' R U R' U' R' F' R2"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 67,
+      "algoritma": [
+        "R' U R2 D r' U2 r D' R2 U' R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 68,
+      "algoritma": [
+        "(U) R' U' R U' R' U' R2 D r' U2 r D' R2 U' R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 69,
+      "algoritma": [
+        "(U) R' U' R U R' U' R2 D R' U R D' R' U2 R' U R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 70,
+      "algoritma": [
+        "L' U R U' L U' R D R' U' R D' R' U' R'"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 71,
+      "algoritma": [
+        "(U2) R2 F R U R' U' R' F' R' U' R2 U2 R U2 R"
+      ]
+    },
+    {
+      "kategori": "U-Shape",
+      "urutan": 72,
+      "algoritma": [
+        "(U') R U2 R' U' R U L' U L U2 R' r' F r"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 73,
+      "algoritma": [
+        "R' F R U' R' U' R U R' F' R U R' U' R' F R F' R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 74,
+      "algoritma": [
+        "(U') F2 R U' R' U' R U R' F' R U R' U' R' F R F2"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 75,
+      "algoritma": [
+        "R U' R' U R U' L U r' F U2 R U2 R2"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 76,
+      "algoritma": [
+        "L' U' L U' R U' L' U R' L U L' U L"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 77,
+      "algoritma": [
+        "(U') F U' R' U R U F' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 78,
+      "algoritma": [
+        "(U) R' U' R L U2 R' U' R L' U' L U' L'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 79,
+      "algoritma": [
+        "R2 F2 R F2 R U' R' U L' U L U' R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 80,
+      "algoritma": [
+        "R2 B2 R' B2 R' U R U' L U' L' U R'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 81,
+      "algoritma": [
+        "(U) F U R U2 R' U R U R2 F' r U R U' r'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 82,
+      "algoritma": [
+        "(U') R' D' R U' R' D R2 U2 R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 83,
+      "algoritma": [
+        "(U) F' L' U' L U L' U' L U F2 R U R' U' F'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 84,
+      "algoritma": [
+        "(U') F R U R' U' R U R' U' F2 L' U' L U F"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 85,
+      "algoritma": [
+        "(U) R' U R U R' F' RUR'U' R' F R2 U' R' U2 RU'R'U2 R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 86,
+      "algoritma": [
+        "(U') r U R' U' r' F R2 U' R' U' R U2 R' U' F'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 87,
+      "algoritma": [
+        "F R U R U2 R' U' R U' R' U2 R' U2 R U' R' U' F'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 88,
+      "algoritma": [
+        "(U') R' U2 R F U' R' U R U R' U R U' F'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 89,
+      "algoritma": [
+        "R U R' U L' U R U' M' x' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 90,
+      "algoritma": [
+        "R U' R' U' R U R D R' U R D' R2"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 91,
+      "algoritma": [
+        "(U') R' U' R F R' U R U' R' F' r U R U' r'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 92,
+      "algoritma": [
+        "(U') r U R' U' r' F R U R' U' R F' R' U R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 93,
+      "algoritma": [
+        "(U') R U2 R' U2 R' F R U R U2 R' U' R U2 R' U' F'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 94,
+      "algoritma": [
+        "F R U' R' U' R U2 R' U' R U' R' U' R U2 R' U' F'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 95,
+      "algoritma": [
+        "(U') r U R' U' M U R U' R' F R U R' U' F'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 96,
+      "algoritma": [
+        "R2 D' R U R' D R U R U' R' U' R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 97,
+      "algoritma": [
+        "(U) R U2 R' U' R U' R' U2 R' U2 R U R' U R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 98,
+      "algoritma": [
+        "(U') R U R' U' R U' R' U2 R U' R' U2 R U R'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 99,
+      "algoritma": [
+        "(U') R' U' R U R' U R U2 R' U R U2 R' U' R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 100,
+      "algoritma": [
+        "(U) R' U2 R U R' U R U R' U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 101,
+      "algoritma": [
+        "R' U' R U' R' U2 R2 U R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 102,
+      "algoritma": [
+        "R U R' U R' U2 R2 U R2 U R2 U' R'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 103,
+      "algoritma": [
+        "(U) R U2 R2 U' R2 U' R' U R' U' R U R' U R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 104,
+      "algoritma": [
+        "(U) R' U2 R2 U R2 U R U' R U R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 105,
+      "algoritma": [
+        "R U R' U' R' U R U R U' R' U R' U R U2 R' U' R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 106,
+      "algoritma": [
+        "(U) R U2 R' U' R U' R' U' R U R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 107,
+      "algoritma": [
+        "R' U' R U' R U2 R2 U' R2 U' R2 U R"
+      ]
+    },
+    {
+      "kategori": "L-Shape",
+      "urutan": 108,
+      "algoritma": [
+        "R U R' U R U2 R2 U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 109,
+      "algoritma": [
+        "R2 D' r U2 r' D R U2 R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 110,
+      "algoritma": [
+        "L U L' U L U2 L2 U R U' L U R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 111,
+      "algoritma": [
+        "F R U R' U' R2 D R' U' R D' R2 U' R U R' F'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 112,
+      "algoritma": [
+        "R2 D R' U2 R D' R' U2 R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 113,
+      "algoritma": [
+        "(U) R' U' L U' R U L' U R' U' R U' R' U R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 114,
+      "algoritma": [
+        "(U) R U R2 D' R U R' D R2 U2 R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 115,
+      "algoritma": [
+        "(U) R2 D' R U' R' D R2 U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 116,
+      "algoritma": [
+        "(U') R' U2 R' D' R U2 R' D R U2 R U R' U R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 117,
+      "algoritma": [
+        "(U) R U' R U D R' U R U2 R' U R D' R' U R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 118,
+      "algoritma": [
+        "R2 D r' U2 r D' R' U2 R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 119,
+      "algoritma": [
+        "R U R' F' U' F2 D R' U R U' R D' F'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 120,
+      "algoritma": [
+        "(U') R' U' R U2 B2 R' U2 R U2 R B2 R2 U' R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 121,
+      "algoritma": [
+        "(U') F' U' F R U R2 u' R U' R U R' u R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 122,
+      "algoritma": [
+        "(U') R' U R U' R' U' R U2 R D R' U' R D' R2 U' R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 123,
+      "algoritma": [
+        "(U') R U R' U2 F2 R U2 R' U2 R' F2 R2 U R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 124,
+      "algoritma": [
+        "(U) R' U R' U' D' R U' R' U2 R U' R' D R U' R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 125,
+      "algoritma": [
+        "(U') R U2 R D R' U2 R D' R' U2 R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 126,
+      "algoritma": [
+        "(U') R U2 R2 D' R U2 R' D R2 U' R' U2 R U2 R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 127,
+      "algoritma": [
+        "(U') R' U2 R2 D R' U2 R D' R2 U R U2 R' U2 R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 128,
+      "algoritma": [
+        "R2 D' R U2 R' D R U2 R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 129,
+      "algoritma": [
+        "(U) R U L' U R' U' L U' R U R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 130,
+      "algoritma": [
+        "(U') R U' R' U R U R' U2 R' D' R U R' D R2 U R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 131,
+      "algoritma": [
+        "R' U' R U' R' U2 R2 U' L' U R' U' L"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 132,
+      "algoritma": [
+        "R' U' R U R U R' U' R' U F R U R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 133,
+      "algoritma": [
+        "(U) R' U R' F R U R U' R' F' R U R' U2 R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 134,
+      "algoritma": [
+        "(U') R U2 R' U' R U' R D' R U2 R' D R U2 R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 135,
+      "algoritma": [
+        "(U') R U' R' U' R U' R' U R' D' R U R' D R2 U R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 136,
+      "algoritma": [
+        "R' U2 R U R' U R' D' R U' R' D R U R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 137,
+      "algoritma": [
+        "(U) F' R U R' U' R' F R2 U R' U2 R U R' U2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 138,
+      "algoritma": [
+        "R' U' R U2 R' F' R U R' U' R' F R2 U2 R' U R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 139,
+      "algoritma": [
+        "(U') R' U2 R U R' U R' D R' U2 R D' R' U2 R'"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 140,
+      "algoritma": [
+        "(U') R' U R U R' U R U' R D R' U' R D' R2 U' R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 141,
+      "algoritma": [
+        "x R2 D2 R U2 R' D2 R U2 l"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 142,
+      "algoritma": [
+        "R U R' U R U R' U2 R U' R2 D' R U' R' D R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 143,
+      "algoritma": [
+        "R U' R' U' R U2 R' U2 R' D' R U' R' D R"
+      ]
+    },
+    {
+      "kategori": "H-Shape",
+      "urutan": 144,
+      "algoritma": [
+        "F R U' R' U R U R' U R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 145,
+      "algoritma": [
+        "F R2 U' R U' R U' R' U2 R' U R2 F'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 146,
+      "algoritma": [
+        "(U') R U R' F' R U R' U R U2 R' F U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 147,
+      "algoritma": [
+        "F U R' U' R2 U' R2 U2 R U2 R U R' F'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 148,
+      "algoritma": [
+        "R' U' R U R U2 R' U' R U' R2 U2 R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 149,
+      "algoritma": [
+        "(U2) L' U2 L2 U L2 U L2 U L'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 150,
+      "algoritma": [
+        "(U') R U2 R' U2 R U' R' U2 R U' R' U2 R U R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 151,
+      "algoritma": [
+        "(U2) F R2 U' R U2 R U R' U R' U R2 F'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 152,
+      "algoritma": [
+        "(U) R U2 R' U' F' R U2 R' U' R U' R' F R U' R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 153,
+      "algoritma": [
+        "(U') R' U' R U R' U' R2 D R' U R D' R' U R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 154,
+      "algoritma": [
+        "(U) R' U2 R U2 R' U R U2 R' U R U2 R' U' R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 155,
+      "algoritma": [
+        "R U R' U' R' U' R U R U R' U' R' U R U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 156,
+      "algoritma": [
+        "(U') R' U2 R U R' U R2 U R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 157,
+      "algoritma": [
+        "(U) R' U' R' D' R U R' D R U2 R' D' R U2 R' D R2"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 158,
+      "algoritma": [
+        "(U2) R U2 R' U R' D' R U R' D R2 U' R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 159,
+      "algoritma": [
+        "(U) R U R' U' R U R2 D' R U' R' D R U' R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 160,
+      "algoritma": [
+        "(U) R U2 R' U' R U' R2 U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 161,
+      "algoritma": [
+        "(U2) R U' R' U2 R U R' U2 R U R' U2 R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 162,
+      "algoritma": [
+        "R U R' U' R' U2 R U R' U R2 U2 R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 163,
+      "algoritma": [
+        "R2 D R' U' R D' R' U' R' U R U' R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 164,
+      "algoritma": [
+        "R2 D' R U R' D R U R U' R' U R U R' U R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 165,
+      "algoritma": [
+        "(U2) R' U2 R U' R D R' U' R D' R2 U R U' R' U R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 166,
+      "algoritma": [
+        "R U2 R2 U' R2 U' R2 U2 R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 167,
+      "algoritma": [
+        "L' U L U2 L' U' L U2 L' U' L U2 L' U2 L"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 168,
+      "algoritma": [
+        "R U2 R' U' R U' R' U' R U2 R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 169,
+      "algoritma": [
+        "R U R' U R2 D R' U' R D' R2 U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 170,
+      "algoritma": [
+        "R' U L U' R U' L' U' L U' L'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 171,
+      "algoritma": [
+        "(U) R' U' R U' R U R2 U R F' R U2 R' U2 R' F R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 172,
+      "algoritma": [
+        "r U' r' U' r U r' U' l R U' R' U l'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 173,
+      "algoritma": [
+        "(U) R2 D' R U2 R' D R2 U R2 D' R U R' D R2"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 174,
+      "algoritma": [
+        "R' U' R U' R2 D' R U R' D R2 U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 175,
+      "algoritma": [
+        "R U2 R2 U' R2 U' R' U R' U2 L U' R U L'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 176,
+      "algoritma": [
+        "(U') R2 D R' U2 R D' R2 U' R2 D R' U' R D' R2"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 177,
+      "algoritma": [
+        "r' U r U r' U' r U R2 F R F' R"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 178,
+      "algoritma": [
+        "(U2) R U2 R' U' R U r' F2 r U2 R' U' r' F r"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 179,
+      "algoritma": [
+        "(U') F U R U2 R' U R U R' F' R U2 R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Pi-Shape",
+      "urutan": 180,
+      "algoritma": [
+        "R U' L' U R' U L U L' U L"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 181,
+      "algoritma": [
+        "(U2) R' U2 R U R' U' R U R2 F R U R U' R' F' R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 182,
+      "algoritma": [
+        "(U) R' U' R U' B2 R' U2 R U2 l U2 l'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 183,
+      "algoritma": [
+        "(U) F U R U' R' U R U' R2 F' R U R U' R'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 184,
+      "algoritma": [
+        "R U R' U' R' U2 R U2 R' D' R U' R' U D R2 U2 R'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 185,
+      "algoritma": [
+        "(U) F' R U R' U' R' F R U' R U' R' U' R U R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 186,
+      "algoritma": [
+        "R' F R U R' U' R' F' R2 U' R' U R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 187,
+      "algoritma": [
+        "(U) R U2 R' U' R U' R2 U L U' R U L'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 188,
+      "algoritma": [
+        "R' U2 R U R' U' R U2 L U' R' U R L'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 189,
+      "algoritma": [
+        "(U) R L' U R' U' L U2 R U' R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 190,
+      "algoritma": [
+        "l U2 l' U2 R' U2 R B2 U R' U R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 191,
+      "algoritma": [
+        "R U R' U' R' F R2 U R' U' R U R' U' F'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 192,
+      "algoritma": [
+        "R U2 R' U' R U R' U2 L' U R U' M'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 193,
+      "algoritma": [
+        "(U) F U R U2 R' U2 R U R2 F' R U2 R U2 R'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 194,
+      "algoritma": [
+        "R U' R' U' R U' R' U R U R' U R' F' R U R U' R' F"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 195,
+      "algoritma": [
+        "(U') R' U' R U' R' U R U' R' U R' D' R U R' D R2"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 196,
+      "algoritma": [
+        "(U') R U R' U F2 R U2 R' U2 R' F2 R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 197,
+      "algoritma": [
+        "(U) R U R' U R U' R' U R U' R D R' U' R D' R2"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 198,
+      "algoritma": [
+        "(U2) R' U' R U' R' U' R U' x' U L' U L U2 R U' R' U"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 199,
+      "algoritma": [
+        "R' U' R U R U2 R' U2 R D R' U R U' D' R2 U2 R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 200,
+      "algoritma": [
+        "(U2) R U R' U R U R' U x U' L U' L' U2 R' U R U'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 201,
+      "algoritma": [
+        "R' F2 R U2 R U2 R' F2 U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 202,
+      "algoritma": [
+        "(U') R' U2 R U R' U R2 U' L' U R' U' L"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 203,
+      "algoritma": [
+        "(U') L R' U' R U L' U2 R' U R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 204,
+      "algoritma": [
+        "(U2) R U2 R' U2 R' F R2 U' R' U2 R U2 R' U' F'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 205,
+      "algoritma": [
+        "(U) R U2 R2 U' R U' R' U2 F R U R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 206,
+      "algoritma": [
+        "(U) R2 D' R U' R' D R U R' D' R U R' D R U R U' R' U' R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 207,
+      "algoritma": [
+        "R' U' F' R U R' U' R' F R2 U2' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 208,
+      "algoritma": [
+        "R U2 R' U L' U2 R U R' U' R U' L R'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 209,
+      "algoritma": [
+        "(U') R U R' L' U2 R U2 R' U2 L U' R U2 R'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 210,
+      "algoritma": [
+        "(U') R U R' U R U' R' U' R' F' R U2 R U2' R' F"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 211,
+      "algoritma": [
+        "R' U2 R U' L U2 R' U' R U R' U L' R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 212,
+      "algoritma": [
+        "(U2) R' U' R' D' R U R' D R' U R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 213,
+      "algoritma": [
+        "(U) F U R U' R' U R U2 R' U' R U R' F'"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 214,
+      "algoritma": [
+        "(U2) R U R D R' U' R D' R U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 215,
+      "algoritma": [
+        "(U') F U' R U' R' U R U R' U2 R U2 R' U F' U"
+      ]
+    },
+    {
+      "kategori": "S-Shape",
+      "urutan": 216,
+      "algoritma": [
+        "(U) R' U' R L U2 R' U2 R U2 L' U R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 217,
+      "algoritma": [
+        "(U) R' U2 R' D' R U2 R' D R2"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 218,
+      "algoritma": [
+        "(U) R U' R D R' U' R U2 R' U' R D' U' R' U R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 219,
+      "algoritma": [
+        "(U) R' U2 R' D' r U2 r' D R2"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 220,
+      "algoritma": [
+        "(U2) R U2 R D R' U2 R D' R2"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 221,
+      "algoritma": [
+        "(U') R U2 R' U' R2 D R' U' R D' R2"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 222,
+      "algoritma": [
+        "(U2) R' U' R U R' U R U' L U' R' U L' U R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 223,
+      "algoritma": [
+        "R' U2 R U R2 D' R U R' D R2"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 224,
+      "algoritma": [
+        "(U) R U R' U2 R U R' U2 y' R' U2 R U' R' U' R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 225,
+      "algoritma": [
+        "(U) R' U R2 D R' U R D' R' U2 R' U R U R' U' R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 226,
+      "algoritma": [
+        "(U2) R' U R' D' R U R' U2 R U R' D U R U' R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 227,
+      "algoritma": [
+        "(U2) R u R' U R U' R u' R2 U' F' U' F R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 228,
+      "algoritma": [
+        "(U) R' D' R U2 R' D R U R U2 R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 229,
+      "algoritma": [
+        "(U) R U R' U' R U' R' U L' U R U' L U' R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 230,
+      "algoritma": [
+        "(U2) R D R' U2 R D' R' U' R' U2 R U' R' U' R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 231,
+      "algoritma": [
+        "(U) R' U2 R U2 R' U' R2 D R' U2 R D' R2 U2 R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 232,
+      "algoritma": [
+        "(U) R' F' R U R' U' R' F R2 U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 233,
+      "algoritma": [
+        "(U2) R U' R2 D' R U' R' D R U2 R U' R' U' R U R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 234,
+      "algoritma": [
+        "(U2) R U2 R' U2 R U R2 D' R U2 R' D R2 U2 R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 235,
+      "algoritma": [
+        "R U' R2 F2 R U2 R U2 R' F2 U2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 236,
+      "algoritma": [
+        "R' U' R U' R' U2 R' D' R U2 R' D R U2 R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 237,
+      "algoritma": [
+        "R' U R U' R' U' R U' R' U2 R' D' R U2 R' D R U R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 238,
+      "algoritma": [
+        "(U') R U R' U R U2 R D R' U2 R D' R' U2 R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 239,
+      "algoritma": [
+        "(U') R' U R2 B2 R' U2 R' U2 R B2 U2 R' U R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 240,
+      "algoritma": [
+        "(U') F R U R' U' R' F' U' R U R U' R' U' R' U R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 241,
+      "algoritma": [
+        "R' U' R U R' F2 R U2 R' U2 R' F2 R2"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 242,
+      "algoritma": [
+        "(U) R' U R U' R' U R U R' U' R2 D R' U R D' R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 243,
+      "algoritma": [
+        "(U2) R' U' R U2 R' F' R U R' U' R' F R2 U R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 244,
+      "algoritma": [
+        "R' U R U2 R' L' U R U L U r' F r"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 245,
+      "algoritma": [
+        "(U') F' R U2 R' U2 R' F U2 R U R U' R2 U2 R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 246,
+      "algoritma": [
+        "(U') F' R U2 R' U2 R' F R U R U' R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 247,
+      "algoritma": [
+        "R' F R U R U' R' F' U R U R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 248,
+      "algoritma": [
+        "(U) R' U' R' D' R U2 R' D R U R U' R' U' R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 249,
+      "algoritma": [
+        "F R U' R' U' R U2 R' U' F'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 250,
+      "algoritma": [
+        "(U) F R' F' R U R U' R' F U R U' R' U R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 251,
+      "algoritma": [
+        "R2 D' R U' R' D R U R"
+      ]
+    },
+    {
+      "kategori": "Anti-S Shape",
+      "urutan": 252,
+      "algoritma": [
+        "(U2) R U R' U R' D' R U2 R' D R2 U' R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 253,
+      "algoritma": [
+        "R U2 R' U2 R' U' R U R U' R' U2 R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 254,
+      "algoritma": [
+        "(U2) R U2 R' U' R U' R' U R' U2 R U R' U R"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 255,
+      "algoritma": [
+        "R2 U R' U R' U' R U' R' U' R U R U' R2"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 256,
+      "algoritma": [
+        "F R U' R' U' R U R D R' U' R D' R' U2 R' U' F'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 257,
+      "algoritma": [
+        "L' U2 R U' R' U2 L R U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 258,
+      "algoritma": [
+        "F R U R' U' R' F R2 U' R' U' R U R' F2"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 259,
+      "algoritma": [
+        "(U) R' U2 R U R' U R U' R U2 R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 260,
+      "algoritma": [
+        "(U2) R U2 R' U' R U' R' U2 R U R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 261,
+      "algoritma": [
+        "(U) R2 U R' U' R' U R U R' U R U' R U' R2"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 262,
+      "algoritma": [
+        "R' U' R U R' F' R U R' U' R' F R2"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 263,
+      "algoritma": [
+        "(U2) F R U R2 F R F' R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 264,
+      "algoritma": [
+        "(U) R U2 R' U' L' U2 R U R' L U r' F r"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 265,
+      "algoritma": [
+        "(U') R2 U' R U' R U R' U R U R' U' R' U R2"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 266,
+      "algoritma": [
+        "(U') R' U2 R U R' U R2 U2 R' U' R U R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 267,
+      "algoritma": [
+        "R U R' U R U' R' U R U' R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 268,
+      "algoritma": [
+        "R' U' R U R' U' R' F R2 U' R' U' R U R' F' U R"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 269,
+      "algoritma": [
+        "L' U2 L U R U2 L' U' L R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 270,
+      "algoritma": [
+        "(U2) r U2 r2 F R F' r2 R' U2 r'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 271,
+      "algoritma": [
+        "(U2) R U R' U R U2 R' U R' U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 272,
+      "algoritma": [
+        "(U) R' U' R U' R' U2 R U' R U R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 273,
+      "algoritma": [
+        "(U2) R U R' U R U2 R' U2 R U2 R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 274,
+      "algoritma": [
+        "(U) L U' R2 D R U2 R' D' R U' L' U' R"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 275,
+      "algoritma": [
+        "(U) R' U L U R' D R U2 R' D' R2 U L'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 276,
+      "algoritma": [
+        "(U) r U2 R r2 F R' F' r2 U2 r'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 277,
+      "algoritma": [
+        "(U') R U R' U' R B2 R' U2 R U2 R B2 R2"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 278,
+      "algoritma": [
+        "(U) L U' R U R' L' U2 R U' R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 279,
+      "algoritma": [
+        "(U) L R U' R' U R L' U R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 280,
+      "algoritma": [
+        "(U2) R U' R' U R U' R' U' R U R2 D' R U' R' D R"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 281,
+      "algoritma": [
+        "(U) R' U2 R2 U R' U' R' U2 F R U R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 282,
+      "algoritma": [
+        "(U2) R U R D R' U2 R D' R' U' R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 283,
+      "algoritma": [
+        "(U) R U R' U R U R' U' R U R D R' U2 R D' R' U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 284,
+      "algoritma": [
+        "(U2) F R U R' U' R' F' R U2 R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 285,
+      "algoritma": [
+        "R' F' R U R' U' R' F R U' R U R' U R"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 286,
+      "algoritma": [
+        "(U') R2 D R' U R D' R' U' R'"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 287,
+      "algoritma": [
+        "(U) R' U' R U' R' U R U' R' U R U' R2 D' R U2 R' D R2"
+      ]
+    },
+    {
+      "kategori": "Dot",
+      "urutan": 288,
+      "algoritma": [
+        "(U) R U R' U R U' R' U' L' U R U' M'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 289,
+      "algoritma": [
+        "F' r U R' U' r' F R2 U2 R' U' R U' R',"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 290,
+      "algoritma": [
+        "F' R U2 R' U2 R' F R U R U R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 291,
+      "algoritma": [
+        "R' U2 R U' L U2 R' U2 R U2 L' R' U R"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 292,
+      "algoritma": [
+        "(U2) R' U2 R U R2 D' R U' R' D R2 U R' U R"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 293,
+      "algoritma": [
+        "(U) R' U' R U' R' U' L U' R U L'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 294,
+      "algoritma": [
+        "(U') R' U' R U' R U R2 U R2 U L' U R' U' L"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 295,
+      "algoritma": [
+        "(U') R' F R U R' U' F' R U' R' U R' F R F' U R"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 296,
+      "algoritma": [
+        "(U) R' U2 R U R' U R' D R' U R D' R' U' R'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 297,
+      "algoritma": [
+        "(U2) F R' F' r U R U' r2 F2 r U r' F r"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 298,
+      "algoritma": [
+        "r' U L' U' L r U' l' U l U' l' U' l"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 299,
+      "algoritma": [
+        "(U') R2 D R' U R D' R2' U R2 D R' U2 R D' R2'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 300,
+      "algoritma": [
+        "(U') R2 D' R U' R' D R2 U' R2 D' R U2 R' D R2"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 301,
+      "algoritma": [
+        "R U2 R' U L' U2 R U2 R' U2 L R U' R'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 302,
+      "algoritma": [
+        "(U') R U2 R' U' R U' R D' R U' R' D R U R"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 303,
+      "algoritma": [
+        "(U') F U' R U2 R' U2 R U' R' U' R U R' U F'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 304,
+      "algoritma": [
+        "(U') R U R' U R' U' R2 U' R2 U' L U' R U L'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 305,
+      "algoritma": [
+        "R U2 R' U' R2 D R' U R D' R2 U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 306,
+      "algoritma": [
+        "(U) R U R' U R U L' U R' U' L"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 307,
+      "algoritma": [
+        "(U) F R U' R' U R U2 R' U' R U R' U' F'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 308,
+      "algoritma": [
+        "F' L' U' L U L F U2 L' U' L U' L2 U2 L"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 309,
+      "algoritma": [
+        "(U2) R' U2 R U2' R2 F' R U R U' R' F U R"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 310,
+      "algoritma": [
+        "(U2) R U R' U R U2 R' F R U' R' U' R U2 R' U' F'"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 311,
+      "algoritma": [
+        "(U2) r' F' r U R U2 r' F2 r U' R' U R U2 R' U"
+      ]
+    },
+    {
+      "kategori": "Cross",
+      "urutan": 312,
+      "algoritma": [
+        "l U' R U R' l' U r U' r' U r U r'"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 313,
+      "algoritma": [
+        "R' U2 R U R' U R U R U R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 314,
+      "algoritma": [
+        "(U) R' U' R U' R' U R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 315,
+      "algoritma": [
+        "R U R' y' U R' U R U' R2 F R F' R"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 316,
+      "algoritma": [
+        "F U R U' R' U R U' R' U R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 317,
+      "algoritma": [
+        "(U') R U R' U R U' R' U R U2 R'"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 318,
+      "algoritma": [
+        "R U2 R' U' R U R' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 319,
+      "algoritma": [
+        "R' U' R y U' R U' R' U R l U' R' U l'"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 320,
+      "algoritma": [
+        "R U' R2 F2 U' R2 U' R2 U F2 U R2 U R'"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 321,
+      "algoritma": [
+        "R' U2 R U R' U' R U R' U R"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 322,
+      "algoritma": [
+        "R U2 R' U' R U' R' U' R' U' R U' R' U2 R"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 323,
+      "algoritma": [
+        "(U) x' U' R U' R' U R' F2 R U' R U R' U"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 324,
+      "algoritma": [
+        "R U' R2 U' F2 U' R2 U R2 U F2 R2 U R'"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 325,
+      "algoritma": [
+        "(U) R U R' U R U2 R' U' R' U2 R U R' U R"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 326,
+      "algoritma": [
+        "(U) L' U L U' L' U' L U R' U' R U L' U' L U2 R' U' R"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 327,
+      "algoritma": [
+        "(U) R U R' U R U' R' U R U' R' U R' U' R2 U' R' U R' U R"
+      ]
+    },
+    {
+      "kategori": "Corners Oriented",
+      "urutan": 328,
+      "algoritma": [
+        "(U) R U' R' U R U R' U' L U L' U' R U R' U2 L U L'"
+      ]
+    }
+  ]
+}

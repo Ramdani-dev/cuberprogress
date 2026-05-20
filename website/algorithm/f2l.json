@@ -1,0 +1,904 @@
+{
+  "front_right_slot": [
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 1,
+      "algoritma": ["U (R U' R')"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 2,
+      "algoritma": ["y' (R' U' R)", "y (L' U' L)"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 3,
+      "algoritma": ["y' U' (R' U R)", "y U' (L' U L)"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 4,
+      "algoritma": ["(R U R')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 5,
+      "algoritma": ["U' (R U' R' U) y' (R' U' R)", "y' U (R' U' R U') (R' U' R)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 6,
+      "algoritma": ["U' (R U2' R' U) y' (R' U' R)", "U' (R U2' R') d (R' U' R)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 7,
+      "algoritma": ["y' U (R' U R U') (R' U' R)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 8,
+      "algoritma": ["U' (R U R' U) (R U R')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 9,
+      "algoritma": ["R' U2' R2 U R2' U R"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 10,
+      "algoritma": ["y' U (R' U2 R) U' y (R U R')", "R U' R' U) (R U' R') U2 (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 11,
+      "algoritma": ["U' (R U' R' U) (R U R')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 12,
+      "algoritma": ["(U' R U R') U2 (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 13,
+      "algoritma": ["U' (R U2' R') U2 (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 14,
+      "algoritma": ["U (R U2' R') U (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 15,
+      "algoritma": ["U2 (R U R' U) (R U' R')", "(R U' R') U2 (R U R')"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 16,
+      "algoritma": ["y' (U R' U' R) U2' (R' U R)", "d (R' U' R) U2' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 17,
+      "algoritma": ["y' U (R' U2 R) U2' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 18,
+      "algoritma": ["d (R' U2 R U2' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 19,
+      "algoritma": ["y' U' (R' U2 R) U' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 20,
+      "algoritma": ["y' U2 (R' U' R) U' (R' U R)", "F' L' U2 L F"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 21,
+      "algoritma": ["y' (R' U R) U2' y (R U R')", "(R U R') U2 (R U' R' U) (R U' R')"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 22,
+      "algoritma": ["(R U' R' U2) y' (R' U' R)", "U F (R U R' U') F' (U R U' R')"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 23,
+      "algoritma": ["(R U2 R') U' (R U R')"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 24,
+      "algoritma": ["y' (R' U2 R) U (R' U' R)"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 25,
+      "algoritma": [
+        "U (R U' R' U') (R U' R' U) (R U' R')",
+        "y' U' (R' U R U) (R' U R U') (R' U R)",
+        "(R U R' U2') (R U R' U') (R U R')",
+        "F (U R U' R') F' (R U' R')"
+      ]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 26,
+      "algoritma": ["U' F' (R U R' U') R' F R", "R' F' R U (R U' R') F"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 27,
+      "algoritma": ["U (R U' R') U' (F' U F)", "U (R U' R') (F R' F' R)"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 28,
+      "algoritma": ["(R U' R' U) (R U' R')"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 29,
+      "algoritma": ["y' (R' U' R U) (R' U' R)", "(R' F R F') U (R U' R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 30,
+      "algoritma": ["(R U' R' U) y' (R' U R)", "U' (R' F R F') (R U' R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 31,
+      "algoritma": ["y' (R' U R U') (R' U R)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 32,
+      "algoritma": ["(R U R' U') (R U R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 33,
+      "algoritma": ["(U R U' R') (U R U' R') (U R U' R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 34,
+      "algoritma": ["(U' R U' R') U2 (R U' R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 35,
+      "algoritma": ["U (R U R') U2 (R U R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 36,
+      "algoritma": ["(U' R U R') d (R' U' R)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 37,
+      "algoritma": ["U (F' U' F) U' (R U R')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 38,
+      "algoritma": ["Solved Pair"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 39,
+      "algoritma": ["(R U' R') d (R' U2 R) U2' (R' U R)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 40,
+      "algoritma": [
+        "(R U' R' U') R U R' U2 (R U' R')",
+        "(R U' R' U) (R U2' R') U (R U' R')",
+        "(R U R' U') R U2 R' U' (R U R')"
+      ]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 41,
+      "algoritma": ["(R U R') U2' (R U' R' U) (R U R')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 42,
+      "algoritma": [
+        "(F' U F) U2 (R U R' U) (R U' R')",
+        "(R U R' U') (R U' R') U2 y' (R' U' R)",
+        "(R U' R') F (R U R' U') F' (R U' R')"
+      ]
+    }
+  ],
+  "back_right_slot": [
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 1,
+      "algoritma": ["y U (R U' R')"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 2,
+      "algoritma": ["y' U (L U' L')"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 3,
+      "algoritma": ["(R' U' R)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 4,
+      "algoritma": ["U' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 5,
+      "algoritma": ["y (R U R')", "y' (L U L')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 6,
+      "algoritma": ["U (R' U' R U') (R' U' R)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 7,
+      "algoritma": ["U (R' U R U') y (R U R')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 8,
+      "algoritma": ["R U2' R2' U' (R2 U' R')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 9,
+      "algoritma": ["U (R' U2 R) U' y (R U R')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 10,
+      "algoritma": ["U (R' U R U') (R' U' R)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 11,
+      "algoritma": ["y U' (R U' R' U) (R U R')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 12,
+      "algoritma": ["y (U' R U R') U2 (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 13,
+      "algoritma": ["U r' (U R U' R') U' r"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 14,
+      "algoritma": ["(U R' U' R) U2' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 15,
+      "algoritma": ["y U' (R U2' R') U2 (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 16,
+      "algoritma": ["U (R' U2 R) U2' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 17,
+      "algoritma": ["y U (R U2' R') U (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 18,
+      "algoritma": ["y U2 (R U R' U) (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 19,
+      "algoritma": ["U' (R' U2 R) U' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 20,
+      "algoritma": ["U2 (R' U' R) U' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 21,
+      "algoritma": ["R' F' U2 F R"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 22,
+      "algoritma": ["(R' U R) U2' y (R U R')", "(R2' F R F' R) U2' (R' U R)"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 23,
+      "algoritma": ["y (R U2 R') U' (R U R')"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 24,
+      "algoritma": ["(R' U' R U' y) (R U' R' U) (R U' R')", "(U R' U2' R) y (R U2' R' U) (R U' R')"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 25,
+      "algoritma": ["(U' R' U R) y U (R U' R')"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 26,
+      "algoritma": ["y (R U' R' U) (R U' R')", "R' U2 R' F R F' R"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 27,
+      "algoritma": ["y (R U' R' U2) y' (R' U' R)", "U (R U' R' U) (R' U' R)"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 28,
+      "algoritma": ["(R' U2' R) U (R' U' R)"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 29,
+      "algoritma": ["U' (R' U R U) (R' U R U') (R' U R)", "y F (U R U' R') F' (R U' R')"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 30,
+      "algoritma": ["y U (R U' R') U' (F' U F)", "y U (R U' R') (F R' F' R)"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 31,
+      "algoritma": ["(R' U R U') (R' U R)"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 32,
+      "algoritma": ["(R' U' R U) (R' U' R)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 33,
+      "algoritma": ["(R' U R' F) (R F' R)", "(R' U R U') y (R U' R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 34,
+      "algoritma": ["y (R U R' U') (R U R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 35,
+      "algoritma": ["(U' R' U R) (U' R' U R) (U' R' U R)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 36,
+      "algoritma": ["(U' R' U' R) U2 (R' U' R)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 37,
+      "algoritma": ["U (R' U R) U2' (R' U R)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 38,
+      "algoritma": ["y (U' R U R') d (R' U' R)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 39,
+      "algoritma": ["Solved Pair"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 40,
+      "algoritma": ["U (R' U' R) y U' (R U R')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 41,
+      "algoritma": ["(R' U R) d' (R U2' R') U2 (R U' R')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 42,
+      "algoritma": ["(R' U R U') (R' U2 R U') (R' U R)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 43,
+      "algoritma": ["(R' U R) U2' y (R U R' U) (R U' R')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 44,
+      "algoritma": ["(R' U' R U) (R' U2' R) U (R' U' R)", "(R' U R U) (R' U' R U2') (R' U R)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 45,
+      "algoritma": ["(R' U R U) (R' U R U') y (R U R')"]
+    }
+  ],
+  "front_left_slot": [
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 1,
+      "algoritma": ["y' U (R U' R')"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 2,
+      "algoritma": ["U' (L' U L)"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 3,
+      "algoritma": ["y U (L U' L')"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 4,
+      "algoritma": ["(L' U' L)"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 5,
+      "algoritma": ["y' (R U R')", "y (L U L')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 6,
+      "algoritma": ["U (L' U' L U') (L' U' L)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 7,
+      "algoritma": ["L U2' L2' U' (L2 U' L')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 8,
+      "algoritma": ["U (L' U L U') (L' U' L)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 9,
+      "algoritma": ["U (L' U L U') y' (R U R')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 10,
+      "algoritma": ["U (L' U2 L) U' y' (R U R')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 11,
+      "algoritma": ["y' U' (R U' R' U) (R U R')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 12,
+      "algoritma": ["y' (U' R U R') U2 (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 13,
+      "algoritma": ["(L U L') y' (U R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 14,
+      "algoritma": ["(U L' U' L) U2' (L' U L)"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 15,
+      "algoritma": ["y' U' (R U2' R') U2 (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 16,
+      "algoritma": ["U (L' U2 L) U2' (L' U L)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 17,
+      "algoritma": ["y' U (R U2' R') U (R U' R')"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 18,
+      "algoritma": ["U' (L' U2 L) U' (L' U L)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 19,
+      "algoritma": ["F R U2 U2' R' F'"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 20,
+      "algoritma": ["U2 (L' U' L) U' (L' U L)"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 21,
+      "algoritma": ["(L' U L) U2' y' (R U R')"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 22,
+      "algoritma": ["y' (R U2 R') U' (R U R')"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 23,
+      "algoritma": [
+        "y' U (R U' R' U') (R U' R' U R U' R')",
+        "y' (R U R' U2') (R U R' U') (R U R')"
+      ]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 24,
+      "algoritma": ["(U' L' U L) d (R U' R')"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 25,
+      "algoritma": ["y' (R U' R' U) (R U' R')"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 26,
+      "algoritma": ["(L' U' L U) (L' U' L)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 27,
+      "algoritma": ["(L' U L U') y' (R U' R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 28,
+      "algoritma": ["y' (R U' R' U2) y' (R' U' R)", "(U' R U' R') U' (L' U' L)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 29,
+      "algoritma": ["(L' U2 L) U (L' U' L)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 30,
+      "algoritma": ["U' (L' U L U) (L' U L U') (L' U L)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 31,
+      "algoritma": ["y' F (U R U' R') F' (R U' R')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 32,
+      "algoritma": ["y' U (R U' R') U' (F' U F)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 33,
+      "algoritma": ["y' U (R U' R') (F R' F' R)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 34,
+      "algoritma": ["(L' U L U') (L' U L)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 35,
+      "algoritma": ["y' (R U R' U') (R U R')", "(r U' r' F) (r U' r' F)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 36,
+      "algoritma": ["(U' L' U L) (U' L' U L) (U' L' U L)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 37,
+      "algoritma": ["(U' L' U' L) U2 (L' U' L)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 38,
+      "algoritma": ["U (L' U L) U2' (L' U L)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 39,
+      "algoritma": ["y' (U' R U R') d (R' U' R)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 40,
+      "algoritma": ["Solved Pair"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 41,
+      "algoritma": ["U (L' U' L) y' U' (R U R')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 42,
+      "algoritma": ["(L' U L U') y' (R U2' R' U2 R U' R')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 43,
+      "algoritma": ["(L' U L U') (L' U2 L U') (L' U L)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 44,
+      "algoritma": ["(L' U' L U) (L' U2' L) U (L' U' L)", "(L' U L U) (L' U' L U2') (L' U L)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 45,
+      "algoritma": ["(L' U L U) (L' U L U') y (L U L')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 46,
+      "algoritma": ["(L' U L) F R U2' R' F'"]
+    }
+  ],
+  "back_left_slot": [
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 1,
+      "algoritma": ["U (L U' L')"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 2,
+      "algoritma": ["y U' (R' U R)", "y' U' (L' U L)"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 3,
+      "algoritma": ["y (R' U' R)"]
+    },
+    {
+      "kategori": "Basic Inserts",
+      "urutan": 4,
+      "algoritma": ["(L U L')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 5,
+      "algoritma": ["y U (R' U' R U') (R' U' R)"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 6,
+      "algoritma": ["U' (L U L' U) (L U L')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 7,
+      "algoritma": ["y R U2' R2' U' (R2 U' R')"]
+    },
+    {
+      "kategori": "F2L Case 1",
+      "urutan": 8,
+      "algoritma": ["y U (R' U R U') (R' U' R)"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 9,
+      "algoritma": ["(U' L U L') U2 (L U' L')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 10,
+      "algoritma": ["L' U2 L2 U (L2' U L)"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 11,
+      "algoritma": ["U' (L U' L' U) (L U L')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 12,
+      "algoritma": ["y (U R' U' R) U2' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 13,
+      "algoritma": ["U' (L U2 L') U2 (L U' L')"]
+    },
+    {
+      "kategori": "F2L Case 2",
+      "urutan": 14,
+      "algoritma": ["y U (R' U2' R) U2' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 15,
+      "algoritma": ["U (L U2' L') U (L U' L')"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 16,
+      "algoritma": ["y U' (R' U2 R) U' (R' U R)"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 17,
+      "algoritma": ["y' F R U2' R' F'"]
+    },
+    {
+      "kategori": "F2L Case 3",
+      "urutan": 18,
+      "algoritma": ["y U2 (R' U' R) U' (R' U R)", "y R' F' U2 F R"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 19,
+      "algoritma": ["y (R' U R) U2' y (R U R')"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 20,
+      "algoritma": ["U' (L' U L U') (L U' L')"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 21,
+      "algoritma": ["(L U' L' U2) y (R' U' R)"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 22,
+      "algoritma": ["(L U2 L') U' (L U L')"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 23,
+      "algoritma": ["y (R' U2' R) U (R' U' R)"]
+    },
+    {
+      "kategori": "Incorrectly Connected Pieces",
+      "urutan": 24,
+      "algoritma": [
+        "U (L U' L' U') (L U' L' U) (L U' L')",
+        "y U' (R' U R U) (R' U R U') (R' U R)"
+      ]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 25,
+      "algoritma": ["y' (U' L' U L) d (R U' R')"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 26,
+      "algoritma": ["(L U' L' U) (L U' L')"]
+    },
+    {
+      "kategori": "Corner in Place, Edge in U Face",
+      "urutan": 27,
+      "algoritma": ["y (R' U' R U) (R' U' R)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 28,
+      "algoritma": ["y (R' U R' F) (R F' R)"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 29,
+      "algoritma": ["(U' L U' L') U2 (L U' L')"]
+    },
+    {
+      "kategori": "Edge in Place, Corner in U face",
+      "urutan": 30,
+      "algoritma": ["(U2' L U L') d' (R' U R)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 31,
+      "algoritma": ["Solved Pair"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 32,
+      "algoritma": ["U (L U' L') d' (R' U R)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 33,
+      "algoritma": ["y (R' U R U') (R' U R)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 34,
+      "algoritma": ["(L U L' U') (L U L')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 35,
+      "algoritma": ["(U L U' L') (U L U' L') (U L U' L')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 36,
+      "algoritma": ["U (L U L') U2 (L U L')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 37,
+      "algoritma": ["y U2' (R' U R) d (L U L')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 38,
+      "algoritma": ["y (R' U R) d' (R U2' R' U2 R U' R')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 39,
+      "algoritma": ["(L U L' U') (L U2 L' U') (L U L')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 40,
+      "algoritma": ["(L U' L' U) (L U2' L') U (L U' L')"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 41,
+      "algoritma": ["(L U' L') d' (U' R' U' R U') (R' U R)"]
+    },
+    {
+      "kategori": "Edge and Corner in Place",
+      "urutan": 42,
+      "algoritma": ["y (R' U R) U2' y (R U R' U R U' R')"]
+    }
+  ]
+}

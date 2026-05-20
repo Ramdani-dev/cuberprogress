@@ -1,0 +1,2466 @@
+{
+  "front_right_slot": [
+    {
+      "kategori": "F2L 1",
+      "urutan": 1,
+      "algoritma": [
+        "(U) R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 1",
+      "urutan": 2,
+      "algoritma": [
+        "R' U' F U R2 U' R' F'",
+        "U R U R' U2' R' F R F'",
+        "U R U R' U2 M' U R U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 2",
+      "urutan": 3,
+      "algoritma": [
+        "y U' L' U L"
+      ]
+    },
+    {
+      "kategori": "F2L 2",
+      "urutan": 4,
+      "algoritma": [
+        "U R' D' r U' r' D R",
+        "U' R2 D r' U r D' R2"
+      ]
+    },
+    {
+      "kategori": "F2L 3",
+      "urutan": 5,
+      "algoritma": [
+        "y L' U' L"
+      ]
+    },
+    {
+      "kategori": "F2L 3",
+      "urutan": 6,
+      "algoritma": [
+        "y' S' (R' U' R) S"
+      ]
+    },
+    {
+      "kategori": "F2L 4",
+      "urutan": 7,
+      "algoritma": [
+        "R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 4",
+      "urutan": 8,
+      "algoritma": [
+        "R U R' U' F R U R' U' F'",
+        "R U y R U R' U' F'",
+        "S' R U R' S"
+      ]
+    },
+    {
+      "kategori": "F2L 1",
+      "urutan": 9,
+      "algoritma": [
+        "R' F R F'",
+        "M' U R U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 1",
+      "urutan": 10,
+      "algoritma": [
+        "M U R U' R' U' M'",
+        "U S' R U' R' S",
+        "(U2) R U' B U' B' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 2",
+      "urutan": 11,
+      "algoritma": [
+        "F R' F' R",
+        "r U R' U' M"
+      ]
+    },
+    {
+      "kategori": "F2L 2",
+      "urutan": 12,
+      "algoritma": [
+        "U' R' D' r U r' D R",
+        "U' F2 r U r' U F"
+      ]
+    },
+    {
+      "kategori": "F2L 3",
+      "urutan": 13,
+      "algoritma": [
+        "S U R U' R' S'",
+        "R U' R' F' r U' r' F2",
+        "M y' R' U' R U S'"
+      ]
+    },
+    {
+      "kategori": "F2L 3",
+      "urutan": 14,
+      "algoritma": [
+        "U R2 D r' U' r D' R2"
+      ]
+    },
+    {
+      "kategori": "F2L 4",
+      "urutan": 15,
+      "algoritma": [
+        "U M U' R U R' M'",
+        "R U2 R' U' R' F R F'",
+        "R U R' F R U R' U' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 4",
+      "urutan": 16,
+      "algoritma": [
+        "R U2 B U' B' R'",
+        "U F U R U' R2' F' R",
+        "R U R' U' r' U2 R U R' U r"
+      ]
+    },
+    {
+      "kategori": "F2L 1",
+      "urutan": 17,
+      "algoritma": [
+        "U2' R' F R F' R U2 R'",
+        "U R B U' B' R'",
+        "U R' F R F2 U F",
+        "(U2) F2 r U r' F",
+        "y' U2' R2' F R F' R"
+      ]
+    },
+    {
+      "kategori": "F2L 1",
+      "urutan": 18,
+      "algoritma": [
+        "R' F R2 U R' U' F'",
+        "U2 R U' R' U' R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 2",
+      "urutan": 19,
+      "algoritma": [
+        "U' r U' r' U r U r'",
+        "U2 R2 B' R' B R'",
+        "(U2 l R U' R' U l')"
+      ]
+    },
+    {
+      "kategori": "F2L 2",
+      "urutan": 20,
+      "algoritma": [
+        "R U2 R D r' U' r D' R2"
+      ]
+    },
+    {
+      "kategori": "F2L 3",
+      "urutan": 21,
+      "algoritma": [
+        "F' r U' r' F2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 3",
+      "urutan": 22,
+      "algoritma": [
+        "U2 R' D' r U' r' D R2 U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 4",
+      "urutan": 23,
+      "algoritma": [
+        "(U') F' U2 F U R U' R'",
+        "R U R' F U R U' R' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 4",
+      "urutan": 24,
+      "algoritma": [
+        "R U' R2' F R F' R U2' R'",
+        "R U' R' F2 r U r' F"
+      ]
+    },
+    {
+      "kategori": "F2L 1",
+      "urutan": 25,
+      "algoritma": [
+        "R' U' F U R U' F'",
+        "U F' L' U' L F",
+        "U2 R U2 B U B' U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 1",
+      "urutan": 26,
+      "algoritma": [
+        "M' U R U' r2 U2' R U R' U r",
+        "y R' F' R U2 M' U' M",
+        "U2 R' F R F' U2 R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 2",
+      "urutan": 27,
+      "algoritma": [
+        "U' R B U B' R'",
+        "d' F R U R' F'",
+        "U2' R U R' U' R' F R F' R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 2",
+      "urutan": 28,
+      "algoritma": [
+        "U' R U' R2' D' r U r' D R",
+        "r U r' U2 M' U M"
+      ]
+    },
+    {
+      "kategori": "F2L 3",
+      "urutan": 29,
+      "algoritma": [
+        "U' R' F R U R U' R2 F' R"
+      ]
+    },
+    {
+      "kategori": "F2L 3",
+      "urutan": 30,
+      "algoritma": [
+        "R' F R2 U' M' U2 r' U' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 4",
+      "urutan": 31,
+      "algoritma": [
+        "U2 r U' r' U' r U r'",
+        "R U' R' U2 R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 4",
+      "urutan": 32,
+      "algoritma": [
+        "R' D' r U' r' D R2 U R'",
+        "R U' r' U r U2' r' U' r U2' R'",
+        "R U' R2' F R F' U2 R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 5",
+      "urutan": 33,
+      "algoritma": [
+        "(U') R U R' U2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 5",
+      "urutan": 34,
+      "algoritma": [
+        "U' R U R' U R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 6",
+      "urutan": 35,
+      "algoritma": [
+        "y' U R' U' R U R' U2' R",
+        "y F2 R U R' U' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 6",
+      "urutan": 36,
+      "algoritma": [
+        "y U L' U' L U' L F' L' F",
+        "F R U' R' U' R U R' F2 U F"
+      ]
+    },
+    {
+      "kategori": "F2L 7",
+      "urutan": 37,
+      "algoritma": [
+        "(U') R U2 R' U2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 7",
+      "urutan": 38,
+      "algoritma": [
+        "U' R U2 R' U R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 8",
+      "urutan": 39,
+      "algoritma": [
+        "y' U R' U2 R U2 R' U R"
+      ]
+    },
+    {
+      "kategori": "F2L 8",
+      "urutan": 40,
+      "algoritma": [
+        "U y L' U2 L U' L F' L' F",
+        "r' U2 R2 U R2' F' U F r"
+      ]
+    },
+    {
+      "kategori": "F2L 5",
+      "urutan": 41,
+      "algoritma": [
+        "U2 R U' R' U2 R U' R' U R' F R F'",
+        "R U' R B2 r' U' r B' R2"
+      ]
+    },
+    {
+      "kategori": "F2L 5",
+      "urutan": 42,
+      "algoritma": [
+        "U' r U R' U' R2 r' U2 R'"
+      ]
+    },
+    {
+      "kategori": "F2L 6",
+      "urutan": 43,
+      "algoritma": [
+        "U R U' R' y' U' R' U R U' R' U R",
+        "U2' R' F' U' F U R2 U' R'",
+        "(R U R' U') (R U R' U') F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 6",
+      "urutan": 44,
+      "algoritma": [
+        "U' R' F R F' R U2' R2' F R F'",
+        "R2 D r' U' r D' R' U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 7",
+      "urutan": 45,
+      "algoritma": [
+        "R U R' U R U' R2 F R F'",
+        "U R' F R F' R U' R' U R U R'",
+        "U R F U R U' R' F' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 7",
+      "urutan": 46,
+      "algoritma": [
+        "F R' F' R U2 R U' R' U R U' R'",
+        "r' F' R2 U R' U2 R U' R2 F r"
+      ]
+    },
+    {
+      "kategori": "F2L 8",
+      "urutan": 47,
+      "algoritma": [
+        "B' R' U' R2 U R' B",
+        "U2 R U' R' F' U' F U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 8",
+      "urutan": 48,
+      "algoritma": [
+        "F R' F' R U' R U R' U' F' U' F",
+        "R2 D R' U' R r' U' r D' R' U R'",
+        "(x' R2) U' R' U F' l' U R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 5",
+      "urutan": 49,
+      "algoritma": [
+        "y' U r' U R U' R' U' r",
+        "r U' r' U' r U r' F' r U' r' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 5",
+      "urutan": 50,
+      "algoritma": [
+        "U' F R U R' U' F' R U2 R'",
+        "U R U' R' U' R' F R F' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 6",
+      "urutan": 51,
+      "algoritma": [
+        "U' r U' R' U R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 6",
+      "urutan": 52,
+      "algoritma": [
+        "U2 y' R' F' U' F U2' R",
+        "U' R' F2 R U' F U' R U2 R' F2",
+        "U2 F' L' U' L U2' F",
+        "U R U R2' F R F' r U' r' U' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 7",
+      "urutan": 53,
+      "algoritma": [
+        "R' D' R U2 R' D F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 7",
+      "urutan": 54,
+      "algoritma": [
+        "U R U' R' U R' F R F' R U R'",
+        "U' R B r' U r B2 U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 8",
+      "urutan": 55,
+      "algoritma": [
+        "r' U2 R2 U R2' U r",
+        "U2 r' D' r U r' D r2 U' R' U R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 8",
+      "urutan": 56,
+      "algoritma": [
+        "U2 r' U r2 U' r2' U' r U2' r U r'",
+        "U' r' F' r U r U' r2' F2 r F",
+        "r' U2 R U R' U r2 U' R' U' R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 5",
+      "urutan": 57,
+      "algoritma": [
+        "R' D' R U R' D F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 5",
+      "urutan": 58,
+      "algoritma": [
+        "U2 R2 D r' U' r D' R' U' R'",
+        "U' r U' r' U2 r U r' U' R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 6",
+      "urutan": 59,
+      "algoritma": [
+        "R' D' F r U2 r' F D R"
+      ]
+    },
+    {
+      "kategori": "F2L 6",
+      "urutan": 60,
+      "algoritma": [
+        "U M' U M U2 r U R' U M",
+        "U R U R D r' U' r D' R2' U' R U R'",
+        "U R U' R' d' L' U L2 F' L' F"
+      ]
+    },
+    {
+      "kategori": "F2L 7",
+      "urutan": 61,
+      "algoritma": [
+        "R' D' r U2 r' D F R F'",
+        "y' R2' F R F' U R U2' R' U R",
+        "F2 r U r' F R U R' U2 R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 7",
+      "urutan": 62,
+      "algoritma": [
+        "M' U' M U2 r U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 8",
+      "urutan": 63,
+      "algoritma": [
+        "U R U' R' d R' U R U' R' U R",
+        "r' U2 R2 U R' U' R' U2 r",
+        "(R l) U' R' U F' l' U2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 8",
+      "urutan": 64,
+      "algoritma": [
+        "r U r' U' R U' M' U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 9",
+      "urutan": 65,
+      "algoritma": [
+        "y' U2' R' U R U R' U' R",
+        "U y' R' U' R U' R' U' R",
+        "R' D' R U' R' D R F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 9",
+      "urutan": 66,
+      "algoritma": [
+        "F R U R' U' F' U' R' F R F'",
+        "M' U R2 r' U2 M' U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 10",
+      "urutan": 67,
+      "algoritma": [
+        "(U') R U R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 10",
+      "urutan": 68,
+      "algoritma": [
+        "U F R' F' R U2 R U' R'",
+        "R U R' F' U F U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 11",
+      "urutan": 69,
+      "algoritma": [
+        "(y') R U2 R2 U' R2 U' R'",
+        "R U2' R' U R U R' F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 11",
+      "urutan": 70,
+      "algoritma": [
+        "F' U r' F2 r U2 F"
+      ]
+    },
+    {
+      "kategori": "F2L 12",
+      "urutan": 71,
+      "algoritma": [
+        "R U' R' U R U' R' U2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 12",
+      "urutan": 72,
+      "algoritma": [
+        "R d' R U2 R' U2 F'"
+      ]
+    },
+    {
+      "kategori": "F2L 9",
+      "urutan": 73,
+      "algoritma": [
+        "F R U R' U' F' R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 9",
+      "urutan": 74,
+      "algoritma": [
+        "U' r U2 r' U' r U' r' U r U2 r'",
+        "U r U' r' U2' r U r' R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 10",
+      "urutan": 75,
+      "algoritma": [
+        "F R' F' R U R' F R F' R U R'",
+        "r' D' r U r' D R r U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 10",
+      "urutan": 76,
+      "algoritma": [
+        "U2 R U' R' U r U' r' U' r U r'",
+        "R B' R' U' R U B U2 R'"
+      ]
+    },
+    {
+      "kategori": "F2L 11",
+      "urutan": 77,
+      "algoritma": [
+        "(U') R U R' U' R U' R' U' F' U' F",
+        "R U' R' U R U' R2' F R F' R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 11",
+      "urutan": 78,
+      "algoritma": [
+        "R U2 R' U' r U' r' U2 r U r'",
+        "r' U' R2 U' R2' U2' r F' U F",
+        "R U' R' U' R U' R2' F R F2 U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 12",
+      "urutan": 79,
+      "algoritma": [
+        "R U' r' U R U' R' U' r U2 R'"
+      ]
+    },
+    {
+      "kategori": "F2L 12",
+      "urutan": 80,
+      "algoritma": [
+        "R U M' U' M U2 M' U' r'",
+        "(U2) R' F2 r U r' F R2 U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 9",
+      "urutan": 81,
+      "algoritma": [
+        "U' R U' R' d R' U' R",
+        "F2 r U r' U' r' F r U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 9",
+      "urutan": 82,
+      "algoritma": [
+        "U r U r' S' r U' r' S r U' r'",
+        "R' F R2 U' R' U' r U2 r' U' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 10",
+      "urutan": 83,
+      "algoritma": [
+        "R U R2 F R F' R U R'",
+        "U2' r U' R' U' R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 10",
+      "urutan": 84,
+      "algoritma": [
+        "U' R U R' U' r U' r' U' r U r'",
+        "R' F' R U R U' R' F' r U r' F"
+      ]
+    },
+    {
+      "kategori": "F2L 11",
+      "urutan": 85,
+      "algoritma": [
+        "R U R' U' R U' R' F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 11",
+      "urutan": 86,
+      "algoritma": [
+        "F' L' U' L U' L' U L U' F",
+        "F' U r' F' r U r' F r F",
+        "R' D' r U r U R U' r2' D"
+      ]
+    },
+    {
+      "kategori": "F2L 12",
+      "urutan": 87,
+      "algoritma": [
+        "R U' R' U R U' R' U R' F R F'",
+        "U r U' R' U' R U r' U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 12",
+      "urutan": 88,
+      "algoritma": [
+        "R U R' U R' F R F' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 9",
+      "urutan": 89,
+      "algoritma": [
+        "U r U R' U' M R U' R'",
+        "R' F R U2 r U2 r' U2 F'"
+      ]
+    },
+    {
+      "kategori": "F2L 9",
+      "urutan": 90,
+      "algoritma": [
+        "U r U r' U2 M' U M R U' R'",
+        "U2 R U R' U' R' F R F' R U2' R2' F R F'",
+        "U2 R U R D r' U' r D' R' U R'",
+        "R' F2 R2 U' R' U' R' F' R2 U R' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 10",
+      "urutan": 91,
+      "algoritma": [
+        "U' r' D' r U' r' D r2 U' r' U' r U r'",
+        "U' F' U' F r U' r' U' r U r'",
+        "R' D2 r U' r2' D r D2 R",
+        "R' F R F' U2' R U R' U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 10",
+      "urutan": 92,
+      "algoritma": [
+        "r U' r' U' r U r' U2' R' F R F'",
+        "R U' R D r' U' r D' R' U' R'",
+        "R' D' R U M' U r' D R2 U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 11",
+      "urutan": 93,
+      "algoritma": [
+        "U' R U2 R' U F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 11",
+      "urutan": 94,
+      "algoritma": [
+        "F R' F' R U' R U' R2 F R F'",
+        "R U R' U2 R' F R F2 U' F",
+        "R U' R' U y r' F2 r2 U' r' F"
+      ]
+    },
+    {
+      "kategori": "F2L 12",
+      "urutan": 95,
+      "algoritma": [
+        "(U) F' U2 F U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 12",
+      "urutan": 96,
+      "algoritma": [
+        "R' D' R U2 M' U r' D R2 U R'",
+        "R U2 R' U' M' U' M U2' r U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 13",
+      "urutan": 97,
+      "algoritma": [
+        "U y' R' U R U' R' U' R",
+        "R' D' R U R' D R F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 13",
+      "urutan": 98,
+      "algoritma": [
+        "R' D' r U r' D R U R U' R'",
+        "R' F R F' U' R' F R F' R U R'",
+        "U' S' U' R B U B' U2 R' U' S"
+      ]
+    },
+    {
+      "kategori": "F2L 14",
+      "urutan": 99,
+      "algoritma": [
+        "(U') R U' R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 14",
+      "urutan": 100,
+      "algoritma": [
+        "R U R' U' R' F R F' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 15",
+      "urutan": 101,
+      "algoritma": [
+        "R' D' R U' R' D R U R U' R'",
+        "R U2 R' U R U R' U R U' R'",
+        "R U R' U2 R U' R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 15",
+      "urutan": 102,
+      "algoritma": [
+        "R U R' U2 R U' R2 F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 16",
+      "urutan": 103,
+      "algoritma": [
+        "U M' U R U' r' U' R U R'",
+        "r U r' U r U2 r' U' r U' r'",
+        "U M' U R U' r' U' R U R'",
+        "U F R' F' R2 U' R' U R' F R F'",
+        "F' U (R U R' U R U2' R') F"
+      ]
+    },
+    {
+      "kategori": "F2L 16",
+      "urutan": 104,
+      "algoritma": [
+        "r U' r' U l' U2 R U' R' U2 l",
+        "U2 r' F' r U' r' F2' r2 U' r' U2' r U r'",
+        "U r U' r' U2 r U r' U r U' r' U' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 13",
+      "urutan": 105,
+      "algoritma": [
+        "R2 D R' U R D' R2 F' U' F",
+        "U R U' R' U R U' R' U' y' R' U R"
+      ]
+    },
+    {
+      "kategori": "F2L 13",
+      "urutan": 106,
+      "algoritma": [
+        "M' U' R U' r' U2 r U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 14",
+      "urutan": 107,
+      "algoritma": [
+        "U' R' F R2 U R' U' R' F' R",
+        "r' D' r U' r' D r R U R'",
+        "U F R U R' D R2 U' R2 D' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 14",
+      "urutan": 108,
+      "algoritma": [
+        "R U R' U' F' U' F U R U R'",
+        "U2 r U R' U R U2 r' U R U' R'",
+        "R B r' U r B2 U2' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 15",
+      "urutan": 109,
+      "algoritma": [
+        "M U r U' r' U' M'",
+        "F D R U R U' R2 D' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 15",
+      "urutan": 110,
+      "algoritma": [
+        "R U2' R2' F R F' U' R U2' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 16",
+      "urutan": 111,
+      "algoritma": [
+        "R U R' U2' R U' R' U' F' U F",
+        "U F R U R' U' F' U R U' R'",
+        "y' M' U' r' U r U M"
+      ]
+    },
+    {
+      "kategori": "F2L 16",
+      "urutan": 112,
+      "algoritma": [
+        "U2 R' D' r U' M U' R' D R",
+        "U r U' r' U2' r U r' U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 13",
+      "urutan": 113,
+      "algoritma": [
+        "M' U' R U R' U2 R U' r'",
+        "R U' R' U R' F R F' R U' R'",
+        "R U R' U R U' R' F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 13",
+      "urutan": 114,
+      "algoritma": [
+        "R' F R U2 r U' r' U2 F'",
+        "U2' r U2' r' U' r U r' U r U2' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 14",
+      "urutan": 115,
+      "algoritma": [
+        "M' U' R U' R' U R U R' U' M"
+      ]
+    },
+    {
+      "kategori": "F2L 14",
+      "urutan": 116,
+      "algoritma": [
+        "F' r U' r' F2 U' R U R'",
+        "U' R U' R' U' r U' r' U' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 15",
+      "urutan": 117,
+      "algoritma": [
+        "F' U L' U L U2' F",
+        "F' U F U2 R U R'",
+        "U R' F R F' U R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 15",
+      "urutan": 118,
+      "algoritma": [
+        "M U R U R' U' r U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 16",
+      "urutan": 119,
+      "algoritma": [
+        "F' U2 L' U' L U' F",
+        "R U' R' U2 F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 16",
+      "urutan": 120,
+      "algoritma": [
+        "F' U R U R' U' R' F2 R F'",
+        "U2 R U R' r U' r' U2' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 13",
+      "urutan": 121,
+      "algoritma": [
+        "R' F' r U R U2 r' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 13",
+      "urutan": 122,
+      "algoritma": [
+        "U2 R U R D r' U r D' R' U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 14",
+      "urutan": 123,
+      "algoritma": [
+        "U2 R U R' U R U2 R2 F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 14",
+      "urutan": 124,
+      "algoritma": [
+        "U2 r U' r' U M' U2' R U r'",
+        "R' F R F' R U' R' U R U2' R2' F R F'",
+        "U2 r U' r' U2 r U r' U R U R'",
+        "U R2 D r' U r D' R2' U2' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 15",
+      "urutan": 125,
+      "algoritma": [
+        "R U2' R' U R U R2' F R F'",
+        "R' D' R U' R' D F R F'",
+        "U' R' F R F' R U R' U2' R U R'",
+        "y' R2' F R F' R U2' R' U R"
+      ]
+    },
+    {
+      "kategori": "F2L 15",
+      "urutan": 126,
+      "algoritma": [
+        "l U r U' r2' F r U2 l'",
+        "U R U' R D r' U r D' R' U' R'",
+        "r' U' R U M' U' R' F U R U' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 16",
+      "urutan": 127,
+      "algoritma": [
+        "U F U R U' R' F' R U R'",
+        "(l R) U' R' U l' U2 R U' R'",
+        "R' D' R U R' D R F R' F' R"
+      ]
+    },
+    {
+      "kategori": "F2L 16",
+      "urutan": 128,
+      "algoritma": [
+        "U' r U' R' U' M U2 r U r'",
+        "U R U2' R' r U' r' U2' r U r'",
+        "U R U2 R' F' L' U2 L F",
+        "R U' R2 D' r U' r' D R2 U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 17",
+      "urutan": 129,
+      "algoritma": [
+        "R U2 R' U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 17",
+      "urutan": 130,
+      "algoritma": [
+        "U R U2 R' U' R U R' U R' F R F'",
+        "U' F R U R' U' F2 r U' r' F2",
+        "U' R U2 R' U' F' U' F R U R'",
+        "R U' R' U' F R' F' R U2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 18",
+      "urutan": 131,
+      "algoritma": [
+        "R' F R F' R U' R' U R U' R'",
+        "y' R' U2 R U R' U' R"
+      ]
+    },
+    {
+      "kategori": "F2L 18",
+      "urutan": 132,
+      "algoritma": [
+        "r U R' U R U r' U M' U2 R U r'",
+        "U' R2 D' r U' r' D r U R2 U' r'",
+        "R' D' R U2 R' D R r U' r' U2' r U r'",
+        "M' U2 r' F2 R U2 r U' r' U2 F",
+        "R U2 R' r U r' U2 r U R' U R r'"
+      ]
+    },
+    {
+      "kategori": "F2L 19",
+      "urutan": 133,
+      "algoritma": [
+        "U R U2 R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 19",
+      "urutan": 134,
+      "algoritma": [
+        "U' l R U' R' U x U' R' U2 R U R'",
+        "U F R' F' R r U' R' U R U r'",
+        "F R' F' R2 U2 R' U2 R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 20",
+      "urutan": 135,
+      "algoritma": [
+        "y' U' R' U2 R U' R' U R y"
+      ]
+    },
+    {
+      "kategori": "F2L 20",
+      "urutan": 136,
+      "algoritma": [
+        "R' F2 R U' F U R' F2 R",
+        "U' r U' r' U2 r U r' R U R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 17",
+      "urutan": 137,
+      "algoritma": [
+        "F' U' F U R U' R' U R U' R'",
+        "R U2' R' U r U' r' U' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 17",
+      "urutan": 138,
+      "algoritma": [
+        "R U2 R' F U R U' R2 F' R"
+      ]
+    },
+    {
+      "kategori": "F2L 18",
+      "urutan": 139,
+      "algoritma": [
+        "R U' R' F' U' F U R U' R'",
+        "R U R' d' L' U L U' L' U L"
+      ]
+    },
+    {
+      "kategori": "F2L 18",
+      "urutan": 140,
+      "algoritma": [
+        "R U' R2' F R F' r U' r' U' r U r'",
+        "R' D R2 U2' r' U2 R U r D' R2"
+      ]
+    },
+    {
+      "kategori": "F2L 19",
+      "urutan": 141,
+      "algoritma": [
+        "R' U R U' R2 F R2 U R' U' R F'",
+        "U' R U' R' U r U' R' U2' R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 19",
+      "urutan": 142,
+      "algoritma": [
+        "U (F R U R' U' F') R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 20",
+      "urutan": 143,
+      "algoritma": [
+        "R' U' R' F R F' U R2 U' R'",
+        "U2' r U' R' U R U r' F' U' F",
+        "x R' U R U' R' U R U2' x' U' F",
+        "U2' R U' R' U F' r U' r' F2'"
+      ]
+    },
+    {
+      "kategori": "F2L 20",
+      "urutan": 144,
+      "algoritma": [
+        "r' D' r U r' D r2 U' r' U2' r U r'",
+        "U' R U' r' U r U2' r' U' r U R'",
+        "F D R2 U' R' U2 R U R2 D' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 17",
+      "urutan": 145,
+      "algoritma": [
+        "R U R' U' F R' F' R2 U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 17",
+      "urutan": 146,
+      "algoritma": [
+        "R U' R' r U' R' U' R U r'",
+        "R U' M' U' R' U' R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 18",
+      "urutan": 147,
+      "algoritma": [
+        "R U' R' F' U F U R U R'",
+        "U R U' R2' F R F' U R U' R'",
+        "U R' F R F' R U' R' U F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 18",
+      "urutan": 148,
+      "algoritma": [
+        "R U R' d' r' F r2 U' r' F",
+        "R U R' F' L' U2 L U' F",
+        "R U' R D r' U' r D' R2' U' R U R'",
+        "U F2 r U r' U F R U2 R'"
+      ]
+    },
+    {
+      "kategori": "F2L 19",
+      "urutan": 149,
+      "algoritma": [
+        "U R' F R F' R U' R' U2 R U' R'",
+        "F' U R U R' U' R' F R2 U R'",
+        "U R U2' r' U R U' R' U' M'"
+      ]
+    },
+    {
+      "kategori": "F2L 19",
+      "urutan": 150,
+      "algoritma": [
+        "U R U2 R2 F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 20",
+      "urutan": 151,
+      "algoritma": [
+        "U' R U' R' U R U' R' d R' U R",
+        "R' F2 r U2 R U' r2' F r F",
+        "S R U2 R' U' R U R' U S'"
+      ]
+    },
+    {
+      "kategori": "F2L 20",
+      "urutan": 152,
+      "algoritma": [
+        "U' F' U' r U' r' F2",
+        "y U' L' U2 L2 F' L' F"
+      ]
+    },
+    {
+      "kategori": "F2L 17",
+      "urutan": 153,
+      "algoritma": [
+        "F' U2' F R U R' U2 R U' R'",
+        "y' M U' R' U2 R U' R' U R U2' M'",
+        "R U l' U R' U' R U R' U' l",
+        "B' R U' R U R' U' R2 U B"
+      ]
+    },
+    {
+      "kategori": "F2L 17",
+      "urutan": 154,
+      "algoritma": [
+        "r' D' r U2' r' D r2 U' R' U2' R U r'",
+        "F' r U' r' F2 R U2' R2 F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 18",
+      "urutan": 155,
+      "algoritma": [
+        "R' F R F' R U' R2' F R F'",
+        "R U R' U' R U2 R' F' U2 F"
+      ]
+    },
+    {
+      "kategori": "F2L 18",
+      "urutan": 156,
+      "algoritma": [
+        "F R' F' R2 U' R' U R U2' R2' F R F'",
+        "F R U R' U' F' R U2' R2 F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 19",
+      "urutan": 157,
+      "algoritma": [
+        "F' U' F U2 R U' R' U R U' R'",
+        "U' r U' R' U' R U r' U R U' R'",
+        "U R U2' R' U R U R' U2' R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 19",
+      "urutan": 158,
+      "algoritma": [
+        "U2 R U R2' r U' M U2' r U' r'",
+        "R' U' F' U F2 R2 U R' U' R' F' R"
+      ]
+    },
+    {
+      "kategori": "F2L 20",
+      "urutan": 159,
+      "algoritma": [
+        "U' R U' R2 F R F' R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 20",
+      "urutan": 160,
+      "algoritma": [
+        "U' R U' R2' F R F' U' R' F R F'",
+        "U' R U R' U r U' r' U2 r U r'",
+        "(U2) R U' R' U' r U' r' U2 r U r'",
+        "U R U' R2 F R F2 U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 21",
+      "urutan": 161,
+      "algoritma": [
+        "U2 R U R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 21",
+      "urutan": 162,
+      "algoritma": [
+        "r U' R' U2 R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 22",
+      "urutan": 163,
+      "algoritma": [
+        "y' R' U R U2 R' U' R y",
+        "U2 R' F R F' R U R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 22",
+      "urutan": 164,
+      "algoritma": [
+        "r U' r' U2' r U r'",
+        "F' L' U2 L F"
+      ]
+    },
+    {
+      "kategori": "F2L 23",
+      "urutan": 165,
+      "algoritma": [
+        "U2 R2 U2' R' U' R U' R2'",
+        "R U' R2' D' R U2 R' D R"
+      ]
+    },
+    {
+      "kategori": "F2L 23",
+      "urutan": 166,
+      "algoritma": [
+        "U F R' F' R U R U R'",
+        "R U R' F' U F R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 24",
+      "urutan": 167,
+      "algoritma": [
+        "U' R U R2' F R F' R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 24",
+      "urutan": 168,
+      "algoritma": [
+        "U' R U' R' U r U' r' U2' r U r'",
+        "F U R U' R' F2 U' F R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 21",
+      "urutan": 169,
+      "algoritma": [
+        "U R' F R F' U' R U2 R'",
+        "U2 F' U' F R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 21",
+      "urutan": 170,
+      "algoritma": [
+        "U2 F R U R' U' F' U' R U2 R'"
+      ]
+    },
+    {
+      "kategori": "F2L 22",
+      "urutan": 171,
+      "algoritma": [
+        "U2' R U R' F' U' F",
+        "y' R' F' U F U R y"
+      ]
+    },
+    {
+      "kategori": "F2L 22",
+      "urutan": 172,
+      "algoritma": [
+        "U2 R' F R F2 U' F R U R'",
+        "U' r U' r' U' r U r' F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 23",
+      "urutan": 173,
+      "algoritma": [
+        "U2 R U2 R' U' R U' R2 F R F'",
+        "U2 R U R' U' R U' R' U R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 23",
+      "urutan": 174,
+      "algoritma": [
+        "R U2' R' U r U' R' U' R U r'",
+        "R U2 R' F' U F U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 24",
+      "urutan": 175,
+      "algoritma": [
+        "R U' R' U r U' R' U R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 24",
+      "urutan": 176,
+      "algoritma": [
+        "y' R' U' R' F R F' U2 R",
+        "r U' r' U' r U r2' D' r U2' r' D r",
+        "r U R' U R U r' U' r U r'",
+        "r U' r' U' r U r' F' U2' F"
+      ]
+    },
+    {
+      "kategori": "F2L 21",
+      "urutan": 177,
+      "algoritma": [
+        "U2' R U R2' F R F'",
+        "U2 R B' R B R2"
+      ]
+    },
+    {
+      "kategori": "F2L 21",
+      "urutan": 178,
+      "algoritma": [
+        "U F R' F' R2 U' R' U R U R'",
+        "U2' R U r' U R U' R' U' M'",
+        "r' U2 R' U R2 U' R U2 r"
+      ]
+    },
+    {
+      "kategori": "F2L 22",
+      "urutan": 179,
+      "algoritma": [
+        "U2 F' r U' r' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 22",
+      "urutan": 180,
+      "algoritma": [
+        "U2' R' F R F' R U R2' F R F'",
+        "r U' r' U2 y' R U R U' R' y"
+      ]
+    },
+    {
+      "kategori": "F2L 23",
+      "urutan": 181,
+      "algoritma": [
+        "U R U' R' U' R U' R2' F R F'",
+        "F' U' F U' R U' R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 23",
+      "urutan": 182,
+      "algoritma": [
+        "U2 r U' r' U r U r' U R U' R'",
+        "M U2 R U R' U r U' R'",
+        "U2' r U' r' U r U r' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 24",
+      "urutan": 183,
+      "algoritma": [
+        "R U R' d R' U R U' R' U R",
+        "y U' L' U L U L' U L2 F' L' F",
+        "R U' R2 F' U' F U R2 U' R'",
+        "U' R U R' U R U' l U' R' U R'",
+        "U F' r' F r F R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 24",
+      "urutan": 184,
+      "algoritma": [
+        "y' M' U2 R' U' R U' r' U R",
+        "U r U' r' U2' r U r' R U2' R' U R U' R'",
+        "F' U' r U2 R' U' R U' r' U2' F",
+        "U2 R' F R y' R U2' R U R' U R2",
+        "U' R U' R' F' L' U' L U' F",
+        "U' F' U r' F r U r' F r U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 21",
+      "urutan": 185,
+      "algoritma": [
+        "U R U' R' U2 R U' R2' F R F'",
+        "R U R' U' F' U F R U R'",
+        "U2 F' r U R' U' r' F2 R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 21",
+      "urutan": 186,
+      "algoritma": [
+        "U2' F' r' F2 r2 U' r' F2",
+        "U R' F R F2 U' F R U2 R'",
+        "U M' U R U' r' U R U R2' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 22",
+      "urutan": 187,
+      "algoritma": [
+        "U R U' R' U' R U' R' y' R' U' R",
+        "R2 U2 R2 F R F' R U2 R2"
+      ]
+    },
+    {
+      "kategori": "F2L 22",
+      "urutan": 188,
+      "algoritma": [
+        "U' R U2 r' U r U2 r' U' r U R'",
+        "U' F R' F' R U2' r U' r' U r U r'",
+        "M' U R U' r' F2 r U r' U2 F"
+      ]
+    },
+    {
+      "kategori": "F2L 23",
+      "urutan": 189,
+      "algoritma": [
+        "U R' F R F' R U R' U2 R U' R'",
+        "F U R U' R' F' U' F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 23",
+      "urutan": 190,
+      "algoritma": [
+        "U F R' F' R U S' R U R' S",
+        "F' U' F U' R U' R2' F R F'",
+        "U' R' F R F' U2' R U' R' U R' F R F'",
+        "U F R' F' R2 r' U R U R' U' M'",
+        "(U') F2 r U r' U' r' F' r2 U' r' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 24",
+      "urutan": 191,
+      "algoritma": [
+        "F U R U' R' F' R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 24",
+      "urutan": 192,
+      "algoritma": [
+        "R U' R2 D' r U r' R U R' D R",
+        "R U R' d R' U R l U' R' U x",
+        "R U R' U2 F' r' F2 r U' F",
+        "U2 R U R' U' r U2' r' U' r U' r' U r U2'"
+      ]
+    },
+    {
+      "kategori": "F2L 25",
+      "urutan": 193,
+      "algoritma": [
+        "R' F' R U R U' R' F",
+        "U' F' R U R' U' R' F R",
+        "R' U' R' U' R' U R U R"
+      ]
+    },
+    {
+      "kategori": "F2L 25",
+      "urutan": 194,
+      "algoritma": [
+        "r U r' U2 r U R' U2 R U' r'",
+        "F2 r U2 R' U' r' F2 R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 26",
+      "urutan": 195,
+      "algoritma": [
+        "L E' L' U L E L'",
+        "U2 L E' L' U' L E L'",
+        "U2 R U' R' U' r U' R' U R U r'",
+        "r2 U2' R2' F R2 U2' r2' F"
+      ]
+    },
+    {
+      "kategori": "F2L 26",
+      "urutan": 196,
+      "algoritma": [
+        "r U R' U2 R U r' U2 r U' r'",
+        "R' D' R U M' U' r' D R"
+      ]
+    },
+    {
+      "kategori": "F2L 27",
+      "urutan": 197,
+      "algoritma": [
+        "R U' R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 27",
+      "urutan": 198,
+      "algoritma": [
+        "R U' R2 F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 28",
+      "urutan": 199,
+      "algoritma": [
+        "y' R' U R U' R' U R y"
+      ]
+    },
+    {
+      "kategori": "F2L 28",
+      "urutan": 200,
+      "algoritma": [
+        "y r' F r2 U' r' F",
+        "F' U2' r U' r' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 25",
+      "urutan": 201,
+      "algoritma": [
+        "U' (M' U R U' r') R U R'",
+        "U' R' F R F' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 25",
+      "urutan": 202,
+      "algoritma": [
+        "U2 r U2' R' U R U' R' U2' R U' r'",
+        "r' U' R' U' R' U R U r"
+      ]
+    },
+    {
+      "kategori": "F2L 26",
+      "urutan": 203,
+      "algoritma": [
+        "U R U' R' F R' F' R",
+        "U R U' M' U R' U' M",
+        "R2 U R' U' R' F R F' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 26",
+      "urutan": 204,
+      "algoritma": [
+        "r U r' U2' r U' R' U2' R U' r'",
+        "R' D' R U' M' U r' D R",
+        "(y') r U R U R U' R' U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 27",
+      "urutan": 205,
+      "algoritma": [
+        "R U' R2 F R2 U R' U' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 27",
+      "urutan": 206,
+      "algoritma": [
+        "U2 r U' r' U r U r' R U2' R'",
+        "R U' R2 U' F U R2 U' R' F'",
+        "R U' R' U R U R' U2' R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 28",
+      "urutan": 207,
+      "algoritma": [
+        "R U R' d R' U2 R",
+        "R U R' r' D' r U' r' D r",
+        "F U R U' R2 F' R2 U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 28",
+      "urutan": 208,
+      "algoritma": [
+        "R U2 R' U R2 D r' U r D' R2'",
+        "R U R' F R U R' U' F2 U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 25",
+      "urutan": 209,
+      "algoritma": [
+        "U' F' U F U R U' R'",
+        "L D (R' F R F') D' L'"
+      ]
+    },
+    {
+      "kategori": "F2L 25",
+      "urutan": 210,
+      "algoritma": [
+        "U2 r U' r' R U' R' U' r U' r'",
+        "U r U r' U R U M' U r'",
+        "U2 F' L' U' L U R U R' U' R' F R"
+      ]
+    },
+    {
+      "kategori": "F2L 26",
+      "urutan": 211,
+      "algoritma": [
+        "U R U' R' U' F' U F"
+      ]
+    },
+    {
+      "kategori": "F2L 26",
+      "urutan": 212,
+      "algoritma": [
+        "r U2' B U' B' U2' r'",
+        "r U2' f R f' U2 r'",
+        "R' D' r U r' D R U' R U R'",
+        "U F R U' R' r U2 r' U' F'",
+        "R' D r2 U r' U' r U' r2 D' R",
+        "F2 R U' R2 F R2 U R' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 27",
+      "urutan": 213,
+      "algoritma": [
+        "R' F2 r U' R U r' F2",
+        "R' D' R U' R' D R U R' F R F'",
+        "R' D' R U R' D R U' R' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 27",
+      "urutan": 214,
+      "algoritma": [
+        "R U' R2 U' F U R U' F'",
+        "U2 R U R' U R U R2' F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 28",
+      "urutan": 215,
+      "algoritma": [
+        "R U2 l U' R' U l'"
+      ]
+    },
+    {
+      "kategori": "F2L 28",
+      "urutan": 216,
+      "algoritma": [
+        "y L' U L U' F R U R' F'",
+        "R U2 R' U' F R U R' U' F2 U' F",
+        "R U' R' r U' R' U' R r' U' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 25",
+      "urutan": 217,
+      "algoritma": [
+        "U' F' U' F U R U R'",
+        "R2' U R U' R' U F R2 F' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 25",
+      "urutan": 218,
+      "algoritma": [
+        "U R2 D r' U r D' R' U' R'",
+        "r U r' U2 r U R' U' R U2 r'"
+      ]
+    },
+    {
+      "kategori": "F2L 26",
+      "urutan": 219,
+      "algoritma": [
+        "U R U R' U' y' R' U' R",
+        "F U' r U M U' R' U F'"
+      ]
+    },
+    {
+      "kategori": "F2L 26",
+      "urutan": 220,
+      "algoritma": [
+        "r U2 R' U R U' r' U2 r U' r'",
+        "U R U R D r' U' r D' R2'"
+      ]
+    },
+    {
+      "kategori": "F2L 27",
+      "urutan": 221,
+      "algoritma": [
+        "R U' r' U R U' R' U' M'"
+      ]
+    },
+    {
+      "kategori": "F2L 27",
+      "urutan": 222,
+      "algoritma": [
+        "U' R U' R2 r U' M U2 r U' r'",
+        "R U' R' y R' F' R U2 M' U' M"
+      ]
+    },
+    {
+      "kategori": "F2L 28",
+      "urutan": 223,
+      "algoritma": [
+        "R U2 R' y' R' U2 R y",
+        "U2 R' F R F' r U' r' U2' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 28",
+      "urutan": 224,
+      "algoritma": [
+        "U r U r' U2 M' U M R U R'",
+        "R U2' R2' F R F2 U2' F"
+      ]
+    },
+    {
+      "kategori": "F2L 29",
+      "urutan": 225,
+      "algoritma": [
+        "y' R' U' R U R' U' R",
+        "R' F R F' U R U' R'",
+        "M' U R U' r' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 29",
+      "urutan": 226,
+      "algoritma": [
+        "U R' F R F2 U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 30",
+      "urutan": 227,
+      "algoritma": [
+        "R U R' U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 30",
+      "urutan": 228,
+      "algoritma": [
+        "U' F R' F' R2 U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 31",
+      "urutan": 229,
+      "algoritma": [
+        "R U' R' U F' U F",
+        "R U' R' U y' R' U R y"
+      ]
+    },
+    {
+      "kategori": "F2L 31",
+      "urutan": 230,
+      "algoritma": [
+        "r U' r' U M' U R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 32",
+      "urutan": 231,
+      "algoritma": [
+        "(U) R U' R' U R U' R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 32",
+      "urutan": 232,
+      "algoritma": [
+        "U R' F R F' d R' U' R",
+        "U2 F' U r' F' r U' F",
+        "U2 R' F R F2 r U' r' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 29",
+      "urutan": 233,
+      "algoritma": [
+        "U2 R U' R' F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 29",
+      "urutan": 234,
+      "algoritma": [
+        "U R2 D r' U' r D' R2' U' R U2 R'",
+        "F' r2 D2 r' U r D2 r' U2 r' F2",
+        "U2 r U' r' U2 r U r' U' R U2 R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 30",
+      "urutan": 235,
+      "algoritma": [
+        "U2' F' U F R U R'",
+        "R U R' F U R U' R2 F' R"
+      ]
+    },
+    {
+      "kategori": "F2L 30",
+      "urutan": 236,
+      "algoritma": [
+        "R U r' U' R U R2 r"
+      ]
+    },
+    {
+      "kategori": "F2L 31",
+      "urutan": 237,
+      "algoritma": [
+        "U' R' F R F' R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 31",
+      "urutan": 238,
+      "algoritma": [
+        "U' R' F R F' U' R' F R F'",
+        "F2 r U r' U2 F R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 32",
+      "urutan": 239,
+      "algoritma": [
+        "U' F' U L' U2 L U' F",
+        "U2 r U S' r' U r S U' r'",
+        "U2 R U r' U R U R' U' r U' R'",
+        "R U' R2 F2 r U r' F R2 U R'",
+        "U R U' R' U R U' r' U R U' R' U' M'"
+      ]
+    },
+    {
+      "kategori": "F2L 32",
+      "urutan": 240,
+      "algoritma": [
+        "U2 R U' f R f' U R'",
+        "U' F R' F' R U' R U R'",
+        "U' r U r' R' F R F' r U' r'",
+        "r U' R2 U' R U' R' U2 R2 U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 29",
+      "urutan": 241,
+      "algoritma": [
+        "R' F R F' R' F R F'",
+        "x R' U R U' R' U R U' x'"
+      ]
+    },
+    {
+      "kategori": "F2L 29",
+      "urutan": 242,
+      "algoritma": [
+        "U' R U R' U' r U' r' U2 r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 30",
+      "urutan": 243,
+      "algoritma": [
+        "x U R' U' R U R' U' l"
+      ]
+    },
+    {
+      "kategori": "F2L 30",
+      "urutan": 244,
+      "algoritma": [
+        "R U R' U r U' r' U' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 31",
+      "urutan": 245,
+      "algoritma": [
+        "R U2 R' U' F R' F' R"
+      ]
+    },
+    {
+      "kategori": "F2L 31",
+      "urutan": 246,
+      "algoritma": [
+        "R U2 R2 D' r U' r' D R"
+      ]
+    },
+    {
+      "kategori": "F2L 32",
+      "urutan": 247,
+      "algoritma": [
+        "U R U' R' U R U' R2 F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 32",
+      "urutan": 248,
+      "algoritma": [
+        "U2 F R' F' R2 U R' U R U' R'",
+        "U2 R U2 R' U2 R U' R2 F R F'",
+        "R U R' U F' U F R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 29",
+      "urutan": 249,
+      "algoritma": [
+        "R' F R F' U R U R' U2' R' F R F'",
+        "U' F R' F' R2 U' R2' D' R U2 R' D R",
+        "U2 R U' R' U' R' F R U R U' R2' F' R",
+        "R U' R2' D' r U' r' D F R F'",
+        "r U2 R' U' R U' r' R U' R' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 29",
+      "urutan": 250,
+      "algoritma": [
+        "M' U' M U2 r U' R' U R U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 30",
+      "urutan": 251,
+      "algoritma": [
+        "U2 R' F R F' R U' R' U2 R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 30",
+      "urutan": 252,
+      "algoritma": [
+        "R U R' U' R' D' r U r' D R2 U R'",
+        "r U R' U' R U r' U2' M' U M",
+        "U' F' U2 r' F r2 U' r' F2"
+      ]
+    },
+    {
+      "kategori": "F2L 31",
+      "urutan": 253,
+      "algoritma": [
+        "F' U F R U2' R'",
+        "R' F' R U R U' R' U2 F"
+      ]
+    },
+    {
+      "kategori": "F2L 31",
+      "urutan": 254,
+      "algoritma": [
+        "r U' R' U' M U' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 32",
+      "urutan": 255,
+      "algoritma": [
+        "U' R U R' U' R U R2 F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 32",
+      "urutan": 256,
+      "algoritma": [
+        "U2' r U2' r' U2 r U' r' U2 r U2' r'",
+        "U2' R' F R F' U2' r U' r' U2' r U r'",
+        "y U2 R' F2 R U2' R' F R U2' R' F2 R",
+        "r U M U2 r R2' U2' R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 33",
+      "urutan": 257,
+      "algoritma": [
+        "(U') R U' R' U2 R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 33",
+      "urutan": 258,
+      "algoritma": [
+        "U r U' r' U r U r' R U' R'",
+        "M' U' R U r' U2 r U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 34",
+      "urutan": 259,
+      "algoritma": [
+        "(U) R' D' R U' R' D R",
+        "U' R' D' R U R' D R"
+      ]
+    },
+    {
+      "kategori": "F2L 34",
+      "urutan": 260,
+      "algoritma": [
+        "y U L' U L U' L F' L' F",
+        "U r U R' U' M U' R U R'",
+        "r' D' r U2 r' U' F2 U F2 D r"
+      ]
+    },
+    {
+      "kategori": "F2L 35",
+      "urutan": 261,
+      "algoritma": [
+        "U2' R U R' y' U' R' U R",
+        "R' D' r U' r' D F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 35",
+      "urutan": 262,
+      "algoritma": [
+        "R2 D r' U' r D' R2 U R U' R'",
+        "U2 r U' r' U R' F R F' r U2' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 36",
+      "urutan": 263,
+      "algoritma": [
+        "(U) F' U' F U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 36",
+      "urutan": 264,
+      "algoritma": [
+        "R2 D r' U r D' R' U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 33",
+      "urutan": 265,
+      "algoritma": [
+        "R U M U' R' U r U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 33",
+      "urutan": 266,
+      "algoritma": [
+        "U' R U' R' U R' F R F'",
+        "(U') R U' R' U M' U R U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 34",
+      "urutan": 267,
+      "algoritma": [
+        "(U') R U' R' F' U' F R U2 R'"
+      ]
+    },
+    {
+      "kategori": "F2L 34",
+      "urutan": 268,
+      "algoritma": [
+        "U R U M' U' r' U' r U r'",
+        "F U' R2 D2 R' U' R D2 R2 U F'"
+      ]
+    },
+    {
+      "kategori": "F2L 35",
+      "urutan": 269,
+      "algoritma": [
+        "U' R U R' d R' U' R",
+        "U M' U R U' M U' R'",
+        "R U R2 F R F' R' F R F'",
+        "(R U R' l' U R U' R' U R U' x')"
+      ]
+    },
+    {
+      "kategori": "F2L 35",
+      "urutan": 270,
+      "algoritma": [
+        "(U2) R U' R D r' U' r D' R2"
+      ]
+    },
+    {
+      "kategori": "F2L 36",
+      "urutan": 271,
+      "algoritma": [
+        "U2 F' U' F U R U' R'",
+        "R U R' U R U' R' d' r' F r",
+        "R U R' F U2' r U r' U2' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 36",
+      "urutan": 272,
+      "algoritma": [
+        "U2 R' F R F' r U' r' U' r U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 33",
+      "urutan": 273,
+      "algoritma": [
+        "U' R U' R' U2' R U R' U2' R' F R F'",
+        "R' F R F' R2 U R' U' R' F R F' R'",
+        "r2 D r2 U' R2 r' U r2 D' R2 r'"
+      ]
+    },
+    {
+      "kategori": "F2L 33",
+      "urutan": 274,
+      "algoritma": [
+        "y U2 F R U2 R' U2 F'",
+        "R U R' U' F' U' F U' R U2 R'",
+        "U' F' U2 L' U2 L F"
+      ]
+    },
+    {
+      "kategori": "F2L 34",
+      "urutan": 275,
+      "algoritma": [
+        "U R U' R' F R' F' R2 U R'",
+        "U' R U2' R' U' r U' r' U' r U r'",
+        "R U' R' U' R' F R F' U R U R'",
+        "r U r' U R U2 R' U r U' r'"
+      ]
+    },
+    {
+      "kategori": "F2L 34",
+      "urutan": 276,
+      "algoritma": [
+        "R U R' U2 R' F R F' R U R'",
+        "U2 R U' R' U r U' R' U' R U r'"
+      ]
+    },
+    {
+      "kategori": "F2L 35",
+      "urutan": 277,
+      "algoritma": [
+        "U2 R U' R' U' F' U' F",
+        "R U R2 F R F' U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 35",
+      "urutan": 278,
+      "algoritma": [
+        "R' D' r U' r' D R U R U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 36",
+      "urutan": 279,
+      "algoritma": [
+        "U2' R' F R F' U2 R U R'",
+        "R U R' F R S R' F' R S' R'",
+        "R U R2 U' R F' R' U R F"
+      ]
+    },
+    {
+      "kategori": "F2L 36",
+      "urutan": 280,
+      "algoritma": [
+        "U2 R2 D r' U' r D' R2' U' R U R'",
+        "R' F' r U2 r' F2 R2 U2' R' U' F",
+        "F' U2' r' F2 r2 U' r' F U' F",
+        "R2 D R' U2 R r' U' r D' R' U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 33",
+      "urutan": 281,
+      "algoritma": [
+        "U R U' R2 F R F' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 33",
+      "urutan": 282,
+      "algoritma": [
+        "U' F R' F' R2 U2' R2' F R F'",
+        "D' r U' r' F2 U R' F R F2 D"
+      ]
+    },
+    {
+      "kategori": "F2L 34",
+      "urutan": 283,
+      "algoritma": [
+        "U r U' R' U R U r' U' R U R'",
+        "y' U R2' F R F' R U' R' U R",
+        "U R U' R' U' F' U F R U R'",
+        "F U R2 D2 R' U' R D2 R2 F'"
+      ]
+    },
+    {
+      "kategori": "F2L 34",
+      "urutan": 284,
+      "algoritma": [
+        "U r U2' r' U2' r U r' U2' r U2' r'",
+        "R U R D r' U r D' R' U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 35",
+      "urutan": 285,
+      "algoritma": [
+        "U2' R U R' F R' F' R",
+        "R2 D R' U2 R D' R2 F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 35",
+      "urutan": 286,
+      "algoritma": [
+        "(U) R' D' r U r' D R2 U2' R'",
+        "R' F R F' U2' R' F R F' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 36",
+      "urutan": 287,
+      "algoritma": [
+        "F' U' F R U R' U' R U R'",
+        "R U R U R' U' R' F R F' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 36",
+      "urutan": 288,
+      "algoritma": [
+        "R U M' U2 f R f' U2 r'",
+        "U F' U' F2 U R U' R2' F' R",
+        "R U R2' D' r U r' D R U' R U R'",
+        "R U R2' D' r U' r' D R U R U R'",
+        "R' F2 D' F' D R U R U' R2 F' R"
+      ]
+    },
+    {
+      "kategori": "F2L 37",
+      "urutan": 289,
+      "algoritma": [
+        "U' R' F R F' R U' R' U R U' R' U2 R U' R'",
+        "U' R' F R F' R' U2' R2 U R2' U R",
+        "R U M' U2 M U R' F' R S R' F R S' R'",
+        "U L E' L' U' L E L2' E2 L U L' E2 L",
+        "U' L E' L' U L E L2' E2 L U' L' E2 L",
+        "U R2 U R' U' R' U2' r U R U' r' R'",
+        "R U' R' B' R' U' R2 U R' B"
+      ]
+    },
+    {
+      "kategori": "F2L 37",
+      "urutan": 290,
+      "algoritma": [
+        "U' r U' r' R U R' U r U' r' R U R'",
+        "R' F R F' U F' U2' F U' R U R'",
+        "R' F R F2 U' F U' R U R' U' R U R'",
+        "R U' R' U R' F R F2 U2 F R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 38",
+      "urutan": 291,
+      "algoritma": [
+        "R2 U2 R' U' R U' R' U2 R'"
+      ]
+    },
+    {
+      "kategori": "F2L 38",
+      "urutan": 292,
+      "algoritma": [
+        "F R' F' R2 U2' R' U' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 39",
+      "urutan": 293,
+      "algoritma": [
+        "R U2 R' U R U' R' U R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 39",
+      "urutan": 294,
+      "algoritma": [
+        "R U' R' U R U2 R2 F R F'"
+      ]
+    },
+    {
+      "kategori": "F2L 40",
+      "urutan": 295,
+      "algoritma": [
+        "U R U' R' F R U R' U' F' R U' R'",
+        "F2 r U r' F U2' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 40",
+      "urutan": 296,
+      "algoritma": [
+        "r U' r' U2' r U r' R U R'",
+        "R' F R D R U R U' R2 D' F'"
+      ]
+    },
+    {
+      "kategori": "F2L 38",
+      "urutan": 297,
+      "algoritma": [
+        "U R U' R' U' R U R' U R' F R F'",
+        "R' F R U R U' R2 F' R U' R U2' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 38",
+      "urutan": 298,
+      "algoritma": [
+        "M' U R U' R' U' R U' r' U2 r U' r'",
+        "R U' R' U' r U' r' U2' r U r' R U2 R'",
+        "R U2' B2 r' U' r B' R2 F R F'",
+        "R U' R' U2 R2 D r' U' r D' R' U' R'"
+      ]
+    },
+    {
+      "kategori": "F2L 39",
+      "urutan": 299,
+      "algoritma": [
+        "R U2' R' U R' F R2 U R' U' R' F' R"
+      ]
+    },
+    {
+      "kategori": "F2L 39",
+      "urutan": 300,
+      "algoritma": [
+        "R U2' R' r U' r' U M' U2' R U r'",
+        "r' U' R2 U' R2' U2' r F' r' F2 r F",
+        "R U R D r' U r D' R2' U2' R U R'"
+      ]
+    },
+    {
+      "kategori": "F2L 41",
+      "urutan": 301,
+      "algoritma": [
+        "U' R U R' F U R U' R' F' R U R'",
+        "R U R' U' R U' R' U2 F' U' F"
+      ]
+    },
+    {
+      "kategori": "F2L 41",
+      "urutan": 302,
+      "algoritma": [
+        "R U' M' U' r' U2 r U r'"
+      ]
+    }
+  ]
+}

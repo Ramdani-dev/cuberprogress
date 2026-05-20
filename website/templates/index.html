@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuber Progress — Rubik Algorithm Tracker</title>
+    <meta name="description" content="Track your F2L, ZBLS, and ZBLL algorithm memorization progress">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        /* Rubik Cube Loading Animation - Sexy Move R U R' U' */
+        .cube-loader { perspective: 200px; width: 60px; height: 60px; position: relative; }
+        .cube-loader .face {
+            position: absolute; width: 18px; height: 18px; border-radius: 3px;
+            animation: sexyMove 1.6s ease-in-out infinite;
+        }
+        .cube-loader .face:nth-child(1) { background: #dc2626; top: 0; left: 0; animation-delay: 0s; }
+        .cube-loader .face:nth-child(2) { background: #2563eb; top: 0; left: 21px; animation-delay: 0.1s; }
+        .cube-loader .face:nth-child(3) { background: #f97316; top: 0; left: 42px; animation-delay: 0.2s; }
+        .cube-loader .face:nth-child(4) { background: #16a34a; top: 21px; left: 0; animation-delay: 0.3s; }
+        .cube-loader .face:nth-child(5) { background: #eab308; top: 21px; left: 21px; animation-delay: 0.4s; }
+        .cube-loader .face:nth-child(6) { background: #ffffff; border: 1.5px solid #cbd5e1; top: 21px; left: 42px; animation-delay: 0.5s; }
+        .cube-loader .face:nth-child(7) { background: #dc2626; top: 42px; left: 0; animation-delay: 0.6s; }
+        .cube-loader .face:nth-child(8) { background: #2563eb; top: 42px; left: 21px; animation-delay: 0.7s; }
+        .cube-loader .face:nth-child(9) { background: #f97316; top: 42px; left: 42px; animation-delay: 0.8s; }
+        @keyframes sexyMove {
+            0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }
+            25% { transform: scale(0.8) rotate(90deg); opacity: 0.6; }
+            50% { transform: scale(1.1) rotate(180deg); opacity: 1; }
+            75% { transform: scale(0.9) rotate(270deg); opacity: 0.7; }
+        }
+        .loader-overlay {
+            position: fixed; inset: 0; background: rgba(255,255,255,0.85); backdrop-filter: blur(4px);
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            z-index: 9999; transition: opacity 0.3s;
+        }
+        .loader-overlay.hidden { opacity: 0; pointer-events: none; }
+        .loader-text { margin-top: 16px; color: #1e40af; font-weight: 600; font-size: 14px; }
+        .loader-alg { font-family: monospace; color: #64748b; font-size: 12px; margin-top: 4px; }
+        /* Sidebar active */
+        .nav-item { transition: all 0.2s; }
+        .nav-item.active { background: #eff6ff; color: #1e40af; border-right: 3px solid #1e40af; }
+        .nav-item:hover { background: #f8fafc; }
+        /* Progress bar animation */
+        .progress-fill { transition: width 0.8s ease-out; }
+        /* Card hover */
+        .case-card { transition: all 0.2s; }
+        .case-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: translateY(-1px); }
+        /* Tab active */
+        .filter-tab { transition: all 0.15s; }
+        .filter-tab.active { background: #1e40af; color: white; }
+        /* Scroll */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+        /* Alg selector */
+        .alg-option { cursor: pointer; transition: all 0.15s; }
+        .alg-option:hover { background: #eff6ff; }
+        .alg-option.selected { background: #dbeafe; border-color: #3b82f6; }
+        /* View transitions */
+        .view-section { display: none; animation: fadeIn 0.3s ease; }
+        .view-section.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="bg-white text-slate-800 min-h-screen">
+
+<!-- Loading Overlay -->
+<div id="loader" class="loader-overlay hidden">
+    <div class="cube-loader">
+        <div class="face"></div><div class="face"></div><div class="face"></div>
+        <div class="face"></div><div class="face"></div><div class="face"></div>
+        <div class="face"></div><div class="face"></div><div class="face"></div>
+    </div>
+    <div class="loader-text">Loading...</div>
+    <div class="loader-alg">R U R' U'</div>
+</div>
+
+<div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-slate-50 border-r border-slate-200 flex flex-col flex-shrink-0 fixed h-full z-50">
+        <div class="p-6 border-b border-slate-200">
+            <h1 class="text-xl font-bold text-blue-700 flex items-center gap-2">
+                <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                Cuber Progress
+            </h1>
+            <p class="text-xs text-slate-400 mt-1">ZB Method Tracker</p>
+        </div>
+        <nav class="flex-1 py-4">
+            <button onclick="switchView('dashboard')" id="nav-dashboard" class="nav-item active w-full text-left px-6 py-3 flex items-center gap-3 text-sm font-medium text-slate-600">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1"/></svg>
+                Dashboard Analisa
+            </button>
+            <button onclick="switchView('tracker')" id="nav-tracker" class="nav-item w-full text-left px-6 py-3 flex items-center gap-3 text-sm font-medium text-slate-600">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+                Tracker Algoritma
+            </button>
+        </nav>
+        <!-- Quick Stats in sidebar -->
+        <div class="p-4 border-t border-slate-200">
+            <div class="text-xs text-slate-400 mb-2 font-medium">QUICK STATS</div>
+            <div id="sidebar-stats" class="space-y-2 text-sm text-slate-600">
+                <div class="flex justify-between"><span>Total</span><span id="qs-total" class="font-semibold text-blue-700">-</span></div>
+                <div class="flex justify-between"><span>Hafal</span><span id="qs-memorized" class="font-semibold text-emerald-600">-</span></div>
+                <div class="flex justify-between"><span>Progres</span><span id="qs-percent" class="font-semibold text-blue-700">-</span></div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 ml-64 p-8 min-h-screen">
+
+        <!-- ═══ DASHBOARD VIEW ═══ -->
+        <section id="view-dashboard" class="view-section active">
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold text-slate-800">Dashboard Analisa</h2>
+                <p class="text-slate-500 text-sm mt-1">Pantau progres hafalan algoritma Rubik kamu</p>
+            </div>
+
+            <!-- Summary Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
+                <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-sm font-medium text-slate-500">Total Progres</span>
+                        <div class="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                        </div>
+                    </div>
+                    <div class="text-3xl font-bold text-slate-800" id="stat-total-pct">0%</div>
+                    <div class="text-sm text-slate-400 mt-1"><span id="stat-total-count">0</span> / <span id="stat-total-all">0</span> cases</div>
+                    <div class="mt-3 h-2 bg-slate-100 rounded-full overflow-hidden">
+                        <div id="bar-total" class="progress-fill h-full bg-blue-600 rounded-full" style="width:0%"></div>
+                    </div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-sm font-medium text-slate-500">F2L Advanced</span>
+                        <div class="w-10 h-10 rounded-lg bg-emerald-50 flex items-center justify-center"><span class="text-emerald-600 font-bold text-sm">F2L</span></div>
+                    </div>
+                    <div class="text-3xl font-bold text-slate-800" id="stat-f2l-pct">0%</div>
+                    <div class="text-sm text-slate-400 mt-1"><span id="stat-f2l-count">0</span> / <span id="stat-f2l-all">0</span> cases</div>
+                    <div class="mt-3 h-2 bg-slate-100 rounded-full overflow-hidden">
+                        <div id="bar-f2l" class="progress-fill h-full bg-emerald-500 rounded-full" style="width:0%"></div>
+                    </div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-sm font-medium text-slate-500">ZBLS</span>
+                        <div class="w-10 h-10 rounded-lg bg-violet-50 flex items-center justify-center"><span class="text-violet-600 font-bold text-xs">ZBLS</span></div>
+                    </div>
+                    <div class="text-3xl font-bold text-slate-800" id="stat-zbls-pct">0%</div>
+                    <div class="text-sm text-slate-400 mt-1"><span id="stat-zbls-count">0</span> / <span id="stat-zbls-all">0</span> cases</div>
+                    <div class="mt-3 h-2 bg-slate-100 rounded-full overflow-hidden">
+                        <div id="bar-zbls" class="progress-fill h-full bg-violet-500 rounded-full" style="width:0%"></div>
+                    </div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-sm font-medium text-slate-500">ZBLL</span>
+                        <div class="w-10 h-10 rounded-lg bg-amber-50 flex items-center justify-center"><span class="text-amber-600 font-bold text-xs">ZBLL</span></div>
+                    </div>
+                    <div class="text-3xl font-bold text-slate-800" id="stat-zbll-pct">0%</div>
+                    <div class="text-sm text-slate-400 mt-1"><span id="stat-zbll-count">0</span> / <span id="stat-zbll-all">0</span> cases</div>
+                    <div class="mt-3 h-2 bg-slate-100 rounded-full overflow-hidden">
+                        <div id="bar-zbll" class="progress-fill h-full bg-amber-500 rounded-full" style="width:0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chart -->
+            <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm mb-8">
+                <h3 class="text-lg font-semibold text-slate-800 mb-4">Perkembangan Bulanan</h3>
+                <div class="h-72">
+                    <canvas id="monthlyChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Sub-group progress -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+                <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm" id="sg-f2l-card">
+                    <h3 class="text-base font-semibold text-slate-800 mb-4 flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-emerald-500"></span> F2L Sub-Groups
+                    </h3>
+                    <div id="sg-f2l" class="space-y-3 text-sm"></div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm" id="sg-zbls-card">
+                    <h3 class="text-base font-semibold text-slate-800 mb-4 flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-violet-500"></span> ZBLS Sub-Groups
+                    </h3>
+                    <div id="sg-zbls" class="space-y-3 text-sm"></div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm" id="sg-zbll-card">
+                    <h3 class="text-base font-semibold text-slate-800 mb-4 flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-amber-500"></span> ZBLL Sub-Groups
+                    </h3>
+                    <div id="sg-zbll" class="space-y-3 text-sm"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ TRACKER VIEW ═══ -->
+        <section id="view-tracker" class="view-section">
+            <div class="mb-6">
+                <h2 class="text-2xl font-bold text-slate-800">Tracker Algoritma</h2>
+                <p class="text-slate-500 text-sm mt-1">Kelola dan track hafalan algoritma</p>
+            </div>
+
+            <!-- Filters -->
+            <div class="flex flex-wrap items-center gap-3 mb-6">
+                <div class="flex gap-1 bg-slate-100 p-1 rounded-lg">
+                    <button onclick="setFilter('category','all')" class="filter-tab active px-4 py-2 rounded-md text-sm font-medium" data-group="category">All</button>
+                    <button onclick="setFilter('category','F2L')" class="filter-tab px-4 py-2 rounded-md text-sm font-medium" data-group="category">F2L</button>
+                    <button onclick="setFilter('category','ZBLS')" class="filter-tab px-4 py-2 rounded-md text-sm font-medium" data-group="category">ZBLS</button>
+                    <button onclick="setFilter('category','ZBLL')" class="filter-tab px-4 py-2 rounded-md text-sm font-medium" data-group="category">ZBLL</button>
+                </div>
+                <div class="flex gap-1 bg-slate-100 p-1 rounded-lg">
+                    <button onclick="setFilter('status','all')" class="filter-tab active px-4 py-2 rounded-md text-sm font-medium" data-group="status">Semua</button>
+                    <button onclick="setFilter('status','not_memorized')" class="filter-tab px-4 py-2 rounded-md text-sm font-medium" data-group="status">Belum Hafal</button>
+                    <button onclick="setFilter('status','memorized')" class="filter-tab px-4 py-2 rounded-md text-sm font-medium" data-group="status">Sudah Hafal</button>
+                </div>
+                <!-- Sub-group filter -->
+                <select id="subGroupFilter" onchange="setFilter('sub_group', this.value)" class="px-3 py-2 rounded-lg border border-slate-200 text-sm text-slate-600 bg-white">
+                    <option value="all">Semua Sub-Group</option>
+                </select>
+                <!-- Search -->
+                <div class="relative ml-auto">
+                    <svg class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                    <input type="text" id="searchInput" placeholder="Cari case..." class="pl-10 pr-4 py-2 rounded-lg border border-slate-200 text-sm w-56 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                </div>
+            </div>
+
+            <!-- Results info -->
+            <div class="flex justify-between items-center mb-4">
+                <span id="results-info" class="text-sm text-slate-500">Loading...</span>
+                <div class="flex gap-2">
+                    <button onclick="prevPage()" id="btn-prev" class="px-3 py-1 rounded border border-slate-200 text-sm text-slate-500 disabled:opacity-40" disabled>Prev</button>
+                    <span id="page-info" class="px-3 py-1 text-sm text-slate-600"></span>
+                    <button onclick="nextPage()" id="btn-next" class="px-3 py-1 rounded border border-slate-200 text-sm text-slate-500 disabled:opacity-40" disabled>Next</button>
+                </div>
+            </div>
+
+            <!-- Cards Grid -->
+            <div id="cases-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5"></div>
+        </section>
+    </main>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>

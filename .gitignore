@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.idea/
+.vscode/
+
+# SQLite Database
+website/data/cuber_progress.db
+
+# Large temporary image processing folders
+zbll_pages/
+zbls_cases/
+zbls_pages/
+
+# OS specific files
+.DS_Store
+Thumbs.db
