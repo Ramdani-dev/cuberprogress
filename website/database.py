@@ -26,12 +26,22 @@ if DATABASE_URL:
     elif DATABASE_URL.startswith("postgresql://"):
         DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+pg8000://", 1)
     
+    # Remove pgbouncer query parameter because pg8000 connect() does not accept it
+    from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
+    parsed = urlparse(DATABASE_URL)
+    query_params = parse_qsl(parsed.query)
+    filtered_params = [(k, v) for k, v in query_params if k.lower() != 'pgbouncer']
+    new_query = urlencode(filtered_params)
+    parsed = parsed._replace(query=new_query)
+    DATABASE_URL = urlunparse(parsed)
+    
     # We also configure pool pre-ping to verify connections and prevent drops
     engine = create_engine(
         DATABASE_URL, 
         pool_pre_ping=True,
         pool_recycle=300
     )
+
 else:
     # Use SQLite
     if os.environ.get("VERCEL"):
