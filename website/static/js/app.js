@@ -163,7 +163,19 @@ async function loadCases() {
         params.set('per_page', 30);
 
         const res = await fetch(`/api/cases?${params}`);
-        const data = await res.json();
+        if (!res.ok) {
+            const errText = await res.text();
+            throw new Error(`HTTP ${res.status}: ${errText.slice(0, 200)}`);
+        }
+        
+        let data;
+        try {
+            data = await res.json();
+        } catch (jsonErr) {
+            const rawText = await res.text();
+            throw new Error(`Invalid JSON: ${rawText.slice(0, 150)}`);
+        }
+
         totalPages = data.pages;
 
         document.getElementById('results-info').textContent =
@@ -178,11 +190,15 @@ async function loadCases() {
     } catch (e) {
         console.error('Cases error:', e);
         document.getElementById('cases-grid').innerHTML =
-            '<p class="text-red-500 col-span-full text-center py-8">Gagal memuat data</p>';
+            `<div class="text-red-500 col-span-full text-center py-8">
+                <p class="font-semibold text-lg mb-2">Gagal memuat data</p>
+                <code class="text-xs bg-red-50 border border-red-200 rounded p-3 block max-w-2xl mx-auto break-all font-mono">${e.message || e}</code>
+             </div>`;
     } finally {
         hideLoader();
     }
 }
+
 
 function renderCases(cases) {
     const grid = document.getElementById('cases-grid');
