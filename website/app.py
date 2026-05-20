@@ -67,6 +67,36 @@ async def index(request: Request):
     return templates.TemplateResponse(request=request, name="index.html")
 
 
+@app.get("/api/db-status")
+def get_db_status():
+    from database import DATABASE_URL
+    if DATABASE_URL:
+        from urllib.parse import urlparse
+        try:
+            parsed = urlparse(DATABASE_URL)
+            safe_url = f"{parsed.scheme}://{parsed.username}:*****@{parsed.hostname}:{parsed.port}{parsed.path}"
+        except Exception:
+            safe_url = "Invalid DATABASE_URL format"
+        return {
+            "status": "connected",
+            "type": "postgresql",
+            "url": safe_url,
+            "vercel": bool(os.environ.get("VERCEL"))
+        }
+    else:
+        try:
+            from database import DB_PATH
+        except ImportError:
+            DB_PATH = "unknown"
+        return {
+            "status": "connected",
+            "type": "sqlite",
+            "path": DB_PATH,
+            "vercel": bool(os.environ.get("VERCEL"))
+        }
+
+
+
 # ── API: Cases ─────────────────────────────────────────
 @app.get("/api/cases")
 def get_cases(

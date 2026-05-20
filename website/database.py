@@ -14,9 +14,11 @@ from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SEED_PATH = os.path.join(BASE_DIR, "data", "seed_data.json")
+DB_PATH = None
 
 # Database configuration
 DATABASE_URL = os.environ.get("DATABASE_URL")
+
 
 if DATABASE_URL:
     # SQLAlchemy requires postgresql+pg8000:// (using pg8000 driver) or postgresql:// (using psycopg2)
